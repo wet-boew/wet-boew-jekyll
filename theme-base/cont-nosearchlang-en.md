@@ -20,6 +20,9 @@ breadcrumb_parent4_url:
 breadcrumb_parent4_name:
 breadcrumb_parent5_url:
 breadcrumb_parent5_name:
+content_editable:
+content_revision_history:
+content_questions_comments:
 date_modified:
 secondary_menu:
 css_href:
