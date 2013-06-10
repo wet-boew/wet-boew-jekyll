@@ -20,6 +20,9 @@ breadcrumb_parent4_url: section4/index-en.html
 breadcrumb_parent4_name: Section 4
 breadcrumb_parent5_url: section4/section43/index-en.html
 breadcrumb_parent5_name: Section 4.3
+content_editable:
+content_revision_history:
+content_questions_comments:
 date_modified:
 secondary_menu: true
 secondary_menu_include: secnav1
