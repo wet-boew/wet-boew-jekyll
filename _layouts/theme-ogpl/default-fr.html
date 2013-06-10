@@ -1,0 +1,31 @@
+{% include theme-ogpl/header-fr.html %}            
+
+<div id="wb-core"><div id="wb-core-in" class="equalize">
+<div id="wb-main" role="main"><div id="wb-main-in">
+<!-- MainContentStart -->
+<h1 id="wb-cont">{{ page.title }}</h1>
+
+<ul class="button-group">
+<li><a id="edit-page" href="http://prose.io/#ogpl/ogpl.github.io/edit/{{ site.branch }}/{{ page.path }}" class="button"><span class="wb-icon-paper-pencil"></span>Modifier cette page</a></li>
+<li><a href="https://github.com/ogpl/ogpl.github.io/commits/{{ site.branch }}/{{ page.path }}" class="button"><span class="wb-icon-info"></span>Historique des révisions</a></li>
+<li><a href="https://github.com/ogpl/ogpl.github.io/issues/new" class="button"><span class="wb-icon-question"></span>Questions ou commentaires?</a></li>
+</ul>
+
+{{ content }}
+
+{% if page.modified == null or page.modified == '' %}{% elsif page.date_modified == false %}{% elsif site.date_modified == false and page.date_modified != true %}
+{% else %}
+<dl id="ogpl-date-mod" role="contentinfo">
+<dt>Date de modification&#160;:</dt><dd><span><time>{{ page.modified }}</time></span></dd>
+</dl>
+{% endif %}
+<div class="clear"></div>
+<!-- MainContentEnd -->
+</div></div>
+{% if page.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true %}
+{% else %}
+{% include theme-ogpl/secondary_menu-fr.html %}
+{% endif %}
+</div></div>
+
+{% include theme-ogpl/footer-fr.html %}  
