@@ -1,5 +1,5 @@
 ---
-layout: theme-base/default-fr
+layout: theme-base-default-fr
 published: "true"
 permalink: cont-nosearchlang-fr.html
 filename_root: cont-nosearchlang

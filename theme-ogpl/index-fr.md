@@ -1,5 +1,5 @@
 ---
-layout: theme-ogpl/default-fr
+layout: theme-ogpl-default-fr
 published: "true"
 permalink: index-fr.html
 filename_root: index

@@ -1,5 +1,5 @@
 ---
-layout: theme-ogpl/default-fr
+layout: theme-ogpl-default-fr
 published: "true"
 permalink: cont-nositemenubc-fr.html
 filename_root: cont-nositemenubc

@@ -1,5 +1,5 @@
 ---
-layout: theme-wet-boew/default-fr
+layout: theme-wet-boew-default-fr
 published: "true"
 permalink: index-fr.html
 filename_root: index

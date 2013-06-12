@@ -1,5 +1,5 @@
 ---
-layout: theme-base/default-en
+layout: theme-base-default-en
 published: "true"
 permalink: index-en.html
 filename_root: index
