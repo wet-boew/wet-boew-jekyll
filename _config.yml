@@ -20,7 +20,7 @@ repo_name: wet-boew.github.io
 branch: master
 
 #global settings, no need to change these
-root_url: http://wet-boew.github.io
+root_url: http://wet-boew.github.io/wet-boew-jekyll/
 org_name: wet-boew
 prose_url: http://prose.io
 
