@@ -15,8 +15,8 @@ content_questions_comments: true
 date_modified: false
 secondary_menu: false
 secondary_menu_include:
-url: http://wet-boew.github.io/
-repo_name: wet-boew.github.io
+url: http://wet-boew.github.io/wet-boew-jekyll/
+repo_name: wet-boew-jekyll
 branch: master
 
 #global settings, no need to change these
