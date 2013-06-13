@@ -30,9 +30,11 @@ script_src:
 ## Blog posts ##
 <ul>
 {% for post in site.posts %}
+{% if post.url contains '-en.html' %}
     <li>
-		<a href="{{ post.url }}">{{ post.title }}</a>
+		<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
 		<p>{{ post.excerpt }}</p>
     </li>
+{% endif %}
 {% endfor %}
 </ul>
