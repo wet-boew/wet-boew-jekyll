@@ -4,7 +4,8 @@ published: "true"
 permalink: cont-secnav2-fr.html
 filename_root: cont-secnav2
 title: Page de contenu - Menu secondaire 2 - Thème de base
-description:
+description: French description / Description en français
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite:

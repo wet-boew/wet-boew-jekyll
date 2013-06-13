@@ -1,10 +1,10 @@
 ---
 layout: default-theme-wet-boew-fr
 published: "true"
-permalink: 2013-06-13-theme-wet-boew-fr.html
-filename_root: 2013-06-13-theme-wet-boew
+permalink: 2013-06-15-theme-wet-boew-fr.html
+filename_root: 2013-06-15-theme-wet-boew
 title: Exemple d'un article de blogue - Thème de la BOEW
-description:
+description: French description / Description en français
 languages:
 search:
 subsite:
@@ -23,7 +23,7 @@ breadcrumb_parent5_name:
 content_editable:
 content_revision_history:
 content_questions_comments:
-date_modified:
+date_modified: true
 secondary_menu:
 secondary_menu_include:
 css_href:

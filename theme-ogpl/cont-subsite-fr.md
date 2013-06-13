@@ -4,7 +4,8 @@ published: "true"
 permalink: cont-subsite-fr.html
 filename_root: cont-subsite
 title: Page de contenu - Sous-site - Thème de la PGO
-description:
+description: French description / Description en français
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite: true

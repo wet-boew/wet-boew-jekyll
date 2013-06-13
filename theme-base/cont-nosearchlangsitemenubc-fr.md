@@ -4,7 +4,8 @@ published: "true"
 permalink: cont-nosearchlangsitemenubc-fr.html
 filename_root: cont-nosearchlangsitemenubc
 title: Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane - Thème de base
-description:
+description: French description / Description en français
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages: false
 search: false
 subsite:

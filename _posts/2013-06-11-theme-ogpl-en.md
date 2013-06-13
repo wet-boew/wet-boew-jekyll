@@ -4,7 +4,7 @@ published: "true"
 permalink: 2013-06-11-theme-ogpl-en.html
 filename_root: 2013-06-11-theme-ogpl
 title: Example blog post - OGPL theme
-description:
+description: English description / Description en anglais
 languages:
 search:
 subsite:
@@ -23,7 +23,7 @@ breadcrumb_parent5_name:
 content_editable:
 content_revision_history:
 content_questions_comments:
-date_modified:
+date_modified: true
 secondary_menu:
 secondary_menu_include:
 css_href:

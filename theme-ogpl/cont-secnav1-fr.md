@@ -4,7 +4,8 @@ published: "true"
 permalink: cont-secnav1-fr.html
 filename_root: cont-secnav1
 title: Page de contenu - Menu secondaire 1 - Thème de la PGO
-description:
+description: French description / Description en français
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite:

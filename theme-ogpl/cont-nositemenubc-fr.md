@@ -4,7 +4,8 @@ published: "true"
 permalink: cont-nositemenubc-fr.html
 filename_root: cont-nositemenubc
 title: Page de contenu - Sans menu du site ou fil d'Ariane - Thème de la PGO
-description:
+description: French description / Description en français
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite:

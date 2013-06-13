@@ -4,7 +4,8 @@ published: "true"
 permalink: index-fr.html
 filename_root: index
 title: Thème de la BOEW
-description:
+description: French description / Description en français
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite:
@@ -40,4 +41,4 @@ script_src:
 * [Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane](cont-nosearchlangsitemenubc-fr.html)
 
 ## Articles de blogue ##
-* [Article de blogue](../_posts/2013-06-13-theme-wet-boew-fr.html)
+* [Article de blogue](../_posts/2013-06-15-theme-wet-boew-fr.html)

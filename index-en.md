@@ -21,6 +21,8 @@ script_src:
 ---
 
 ## Normal Web pages ##
+* [GC Web Usability theme](theme-gcwu-fegc/index-en.html)
+* [GC Web Usability Intranet theme](theme-gcwu-intranet/index-en.html)
 * [WET theme](theme-wet-boew/index-en.html)
 * [Base theme](theme-base/index-en.html)
 * [OGPL theme](theme-ogpl/index-en.html)

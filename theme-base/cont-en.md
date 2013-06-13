@@ -4,7 +4,8 @@ published: "true"
 permalink: cont-en.html
 filename_root: cont
 title: Content page - Base theme
-description:
+description: English description / Description en anglais
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite:

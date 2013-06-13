@@ -1,10 +1,10 @@
 ---
 layout: default-theme-base-fr
 published: "true"
-permalink: 2013-06-12-theme-base-fr.html
-filename_root: 2013-06-12-theme-base
+permalink: 2013-06-14-theme-base-fr.html
+filename_root: 2013-06-14-theme-base
 title: Exemple d'un article de blogue - Thème de base
-description:
+description: French description / Description en français
 languages:
 search:
 subsite:
@@ -23,7 +23,7 @@ breadcrumb_parent5_name:
 content_editable:
 content_revision_history:
 content_questions_comments:
-date_modified:
+date_modified: true
 secondary_menu:
 secondary_menu_include:
 css_href:

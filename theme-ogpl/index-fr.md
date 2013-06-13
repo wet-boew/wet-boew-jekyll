@@ -4,7 +4,8 @@ published: "true"
 permalink: index-fr.html
 filename_root: index
 title: Thème de la PGO
-description:
+description: French description / Description en français
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite:

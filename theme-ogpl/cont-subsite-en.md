@@ -4,7 +4,8 @@ published: "true"
 permalink: cont-subsite-en.html
 filename_root: cont-subsite
 title: Content page - Sub-site - OGPL theme
-description:
+description: English description / Description en anglais
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite: true

@@ -4,7 +4,8 @@ published: "true"
 permalink: index-en.html
 filename_root: index
 title: WET theme
-description:
+description: English description / Description en anglais
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite:
@@ -40,4 +41,4 @@ script_src:
 * [Content page - No search, language selection link, site menu or breadcrumb trail](cont-nosearchlangsitemenubc-en.html)
 
 ## Blog posts ##
-* [Blog post](../_posts/2013-06-13-theme-wet-boew-en.html)
+* [Blog post](../_posts/2013-06-15-theme-wet-boew-en.html)

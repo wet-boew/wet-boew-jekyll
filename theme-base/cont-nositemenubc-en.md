@@ -4,7 +4,8 @@ published: "true"
 permalink: cont-nositemenubc-en.html
 filename_root: cont-nositemenubc
 title: Content page - No site menu or breadcrumb trail - Base theme
-description:
+description: English description / Description en anglais
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite:

@@ -21,6 +21,8 @@ script_src:
 ---
 
 ## Pages Web normales ##
+* [Thème de la facilité d'emploi Web GC](theme-gcwu-fegc/index-fr.html)
+* [Thème de la facilité d’emploi Web GC pour les sites intranet](theme-gcwu-intranet/index-fr.html)
 * [Thème de la BOEW](theme-wet-boew/index-fr.html)
 * [Thème de base](theme-base/index-fr.html)
 * [Thème de la PGO](theme-ogpl/index-fr.html)

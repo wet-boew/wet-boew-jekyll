@@ -4,7 +4,8 @@ published: "true"
 permalink: index-fr.html
 filename_root: index
 title: Thème de base
-description:
+description: French description / Description en français
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite:
@@ -40,4 +41,4 @@ script_src:
 * [Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane](cont-nosearchlangsitemenubc-fr.html)
 
 ## Articles de blogue ##
-* [Article de blogue](../_posts/2013-06-12-theme-base-fr.html)
+* [Article de blogue](../_posts/2013-06-14-theme-base-fr.html)

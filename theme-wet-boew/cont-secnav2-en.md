@@ -4,7 +4,8 @@ published: "true"
 permalink: cont-secnav2-en.html
 filename_root: cont-secnav2
 title: Content page - Secondary menu 2 - WET theme
-description:
+description: English description / Description en anglais
+modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
 languages:
 search:
 subsite:
