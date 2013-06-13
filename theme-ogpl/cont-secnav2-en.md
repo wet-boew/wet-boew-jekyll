@@ -1,8 +1,8 @@
 ---
 layout: default-theme-ogpl-en
 published: "true"
-permalink: cont-en.html
-filename_root: cont
+permalink: cont-secnav2-en.html
+filename_root: cont-secnav2
 title: Content page - Secondary menu 2 - OGPL theme
 description:
 languages:

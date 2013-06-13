@@ -1,8 +1,8 @@
 ---
 layout: default-theme-ogpl-fr
 published: "true"
-permalink: cont-fr.html
-filename_root: cont
+permalink: cont-secnav2-fr.html
+filename_root: cont-secnav2
 title: Page de contenu - Menu secondaire 2 - Thème de la PGO
 description:
 languages:

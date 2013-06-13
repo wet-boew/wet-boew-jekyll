@@ -1,8 +1,8 @@
 ---
 layout: default-theme-wet-boew-fr
 published: "true"
-permalink: cont-fr.html
-filename_root: cont
+permalink: cont-secnav1-fr.html
+filename_root: cont-secnav1
 title: Page de contenu - Menu secondaire 1 - Thème de la BOEW
 description:
 languages:

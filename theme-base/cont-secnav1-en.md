@@ -1,8 +1,8 @@
 ---
 layout: default-theme-base-en
 published: "true"
-permalink: cont-en.html
-filename_root: cont
+permalink: cont-secnav1-en.html
+filename_root: cont-secnav1
 title: Content page - Secondary menu 1 - Base theme
 description:
 languages:
