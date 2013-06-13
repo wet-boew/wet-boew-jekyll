@@ -1,5 +1,5 @@
 ---
-layout: theme-base-default-fr
+layout: default-theme-base-fr
 published: "true"
 permalink: cont-subsite-fr.html
 filename_root: cont-subsite

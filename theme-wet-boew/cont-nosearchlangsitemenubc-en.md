@@ -1,5 +1,5 @@
 ---
-layout: theme-wet-boew-default-en
+layout: default-theme-wet-boew-en
 published: "true"
 permalink: cont-nosearchlangsitemenubc-en.html
 filename_root: cont-nosearchlangsitemenubc

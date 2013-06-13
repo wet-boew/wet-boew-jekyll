@@ -1,5 +1,5 @@
 ---
-layout: theme-base-default-fr
+layout: default-theme-base-fr
 published: "true"
 permalink: cont-nositemenubc-fr.html
 filename_root: cont-nositemenubc

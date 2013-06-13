@@ -1,5 +1,5 @@
 ---
-layout: theme-ogpl-default-fr
+layout: default-theme-ogpl-fr
 published: "true"
 permalink: cont-subsite-fr.html
 filename_root: cont-subsite
