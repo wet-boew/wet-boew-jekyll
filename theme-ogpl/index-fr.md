@@ -30,6 +30,7 @@ css_href:
 script_src:
 ---
 
+## Pages Web normales ##
 * [Page de contenu](cont-fr.html)
 * [Page de contenu - Menu secondaire 1](cont-secnav1-fr.html)
 * [Page de contenu - Menu secondaire 2](cont-secnav2-fr.html)
@@ -37,3 +38,6 @@ script_src:
 * [Page de contenu - Sans recherche ou lien de sélection de la langue](cont-nosearchlang-fr.html)
 * [Page de contenu - Sans menu du site ou fil d'Ariane](cont-nositemenubc-fr.html)
 * [Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane](cont-nosearchlangsitemenubc-fr.html)
+
+## Articles de blogue ##
+* [Article de blogue](../_posts/2013-06-11-theme-ogpl-fr.html)

@@ -20,6 +20,17 @@ css_href:
 script_src:
 ---
 
+## Pages Web normales ##
 * [Thème de la BOEW](theme-wet-boew/index-fr.html)
 * [Thème de base](theme-base/index-fr.html)
 * [Thème de la PGO](theme-ogpl/index-fr.html)
+
+## Articles de blogue ##
+<ul>
+{% for post in site.posts %}
+    <li>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+		<p>{{ post.excerpt }}</p>
+    </li>
+{% endfor %}
+</ul>

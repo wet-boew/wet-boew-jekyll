@@ -20,6 +20,17 @@ css_href:
 script_src:
 ---
 
+## Normal Web pages ##
 * [WET theme](theme-wet-boew/index-en.html)
 * [Base theme](theme-base/index-en.html)
 * [OGPL theme](theme-ogpl/index-en.html)
+
+## Blog posts ##
+<ul>
+{% for post in site.posts %}
+    <li>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+		<p>{{ post.excerpt }}</p>
+    </li>
+{% endfor %}
+</ul>
