@@ -1,34 +1,15 @@
 ---
-layout: default-theme-ogpl-en
-published: "true"
-permalink: index-en.html
-filename_root: index
-title: OGPL theme
-description: English description / Description en anglais
-modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
-languages:
-search:
-subsite:
-site_menu:
-breadcrumb:
-breadcrumb_parent1_url: http://wet-boew.github.io/wet-boew/demos/index-eng.html
-breadcrumb_parent1_name: Working examples
-breadcrumb_parent2_url: ../index-en.html
-breadcrumb_parent2_name: Jekyll variant
-breadcrumb_parent3_url:
-breadcrumb_parent3_name:
-breadcrumb_parent4_url:
-breadcrumb_parent4_name:
-breadcrumb_parent5_url:
-breadcrumb_parent5_name:
-content_editable:
-content_revision_history:
-content_questions_comments:
-date_modified:
-secondary_menu:
-secondary_menu_include:
-css_href:
-script_src:
+published: true
+layout: "default-theme-ogpl-en"
+permalink: "index-en.html"
+filename_root: "index"
+title: "OGPL theme"
+description: "English description / Description en anglais"
+modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+breadcrumb_parent1_url: "http://wet-boew.github.io/wet-boew/demos/index-eng.html"
+breadcrumb_parent1_name: "Working examples"
+breadcrumb_parent2_url: "../index-en.html"
+breadcrumb_parent2_name: "Jekyll variant"
 ---
 
 ## Normal Web pages ##

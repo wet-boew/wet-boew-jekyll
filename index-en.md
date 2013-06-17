@@ -2,22 +2,10 @@
 published: true
 layout: "default-theme-wet-boew-en"
 permalink: "index-en.html"
-filename_root: index
-title: null
-description: null
-languages: null
-search: null
-site_menu: null
-breadcrumb: null
+filename_root: "index"
+title: "Home page"
 breadcrumb_parent1_url: "http://wet-boew.github.io/wet-boew/demos/index-eng.html"
-breadcrumb_parent1_name: Working examples
-breadcrumb_parent2_url: null
-breadcrumb_parent2_name: null
-breadcrumb_parent3_url: null
-breadcrumb_parent3_name: null
-date_modified: null
-css_href: null
-script_src: null
+breadcrumb_parent1_name: "Working examples"
 ---
 
 ## Normal Web pages ##
@@ -38,5 +26,3 @@ script_src: null
 {% endif %}
 {% endfor %}
 </ul>
-
-Test

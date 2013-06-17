@@ -1,33 +1,19 @@
 ---
-layout: default-theme-ogpl-fr
-published: "true"
-permalink: cont-subsite-fr.html
-filename_root: cont-subsite
-title: Page de contenu - Sous-site - Thème de la PGO
-description: French description / Description en français
-modified: Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)
-languages:
-search:
+published: true
+layout: "default-theme-ogpl-fr"
+permalink: "cont-subsite-fr.html"
+filename_root: "cont-subsite"
+title: "Page de contenu - Sous-site - Thème de la PGO"
+description: "French description / Description en français"
+modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 subsite: true
-site_menu:
-breadcrumb:
-breadcrumb_parent1_url: http://wet-boew.github.io/wet-boew/demos/index-fra.html
-breadcrumb_parent1_name: Exemples pratiques
-breadcrumb_parent2_url: ../index-fr.html
-breadcrumb_parent2_name: Variant pour Jekyll
-breadcrumb_parent3_url: index-fr.html
-breadcrumb_parent3_name: Thème de la PGO
-breadcrumb_parent4_url:
-breadcrumb_parent4_name:
-breadcrumb_parent5_url:
-breadcrumb_parent5_name:
-content_editable:
-content_revision_history:
-content_questions_comments:
-date_modified:
-secondary_menu:
-secondary_menu_include:
-css_href:
-script_src:
+subsite_url: "#"
+subsite_name: "Nom du sous-site"
+breadcrumb_parent1_url: "http://wet-boew.github.io/wet-boew/demos/index-fra.html"
+breadcrumb_parent1_name: "Exemples pratiques"
+breadcrumb_parent2_url: "../index-fr.html"
+breadcrumb_parent2_name: "Variant pour Jekyll"
+breadcrumb_parent3_url: "index-fr.html"
+breadcrumb_parent3_name: "Thème de la PGO"
 ---
 
