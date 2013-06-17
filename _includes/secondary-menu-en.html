@@ -1,5 +1,4 @@
-{% if site.secondary_menu_include and site.secondary_menu_include != '' }{% assign secondary_menu_include = site.secondary_menu_include %}{% endif %}
-{% if page.secondary_menu_include and page.secondary_menu_include != '' }{% assign secondary_menu_include = page.secondary_menu_include %}{% endif %}
+{% assign secondary_menu_include = page.secondary_menu_include %}
 <div id="wb-sec"><div id="wb-sec-in"><nav role="navigation"><h2 id="wb-nav">Secondary menu</h2>
 <div class="wb-sec-def">
 <!-- SecNavStart -->
