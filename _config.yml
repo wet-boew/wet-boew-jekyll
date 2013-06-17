@@ -14,7 +14,7 @@ content_revision_history: true
 content_questions_comments: true
 date_modified: false
 secondary_menu: false
-secondary_menu_include:
+secondary_menu_include: null
 url: "http://wet-boew.github.io/wet-boew-jekyll/"
 repo_name: "wet-boew-jekyll"
 branch: "master"
