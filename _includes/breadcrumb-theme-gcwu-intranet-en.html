@@ -1,0 +1,14 @@
+
+<div id="gcwu-bc"><h2>Breadcrumb trail</h2><div id="gcwu-bc-in">
+<ol>
+<li><a href="http://wet-boew.github.io/wet-boew/index-eng.html">Home</a></li>
+<li><a href="http://wet-boew.github.io/wet-boew/demos/index-eng.html">Working examples</a></li>
+{% if page.url contains 'theme-gcwu-intranet/' %}
+<li><a href="http://wet-boew.github.io/wet-boew/wet-boew-jekyll/index-en.html">Jekyll variant</a></li>
+{% unless page.url contains 'theme-gcwu-intranet/index-en.html' %}
+<li><a href="http://wet-boew.github.io/wet-boew/wet-boew-jekyll/theme-gcwu-intranet/index-en.html">GC Web Usability Intranet theme</a></li>
+{% endunless %}
+{% endif %}
+<li>{{ page.title }}</li>
+</ol>
+</div></div>

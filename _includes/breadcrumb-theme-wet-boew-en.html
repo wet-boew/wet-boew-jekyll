@@ -1,0 +1,14 @@
+
+<div id="wet-bc"><h2>Breadcrumb trail</h2><div id="wet-bc-in">
+<ol>
+<li><a href="http://wet-boew.github.io/wet-boew/index-eng.html">Home</a></li>
+<li><a href="http://wet-boew.github.io/wet-boew/demos/index-eng.html">Working examples</a></li>
+{% if page.url contains 'theme-wet-boew/' %}
+<li><a href="http://wet-boew.github.io/wet-boew/wet-boew-jekyll/index-en.html">Jekyll variant</a></li>
+{% unless page.url contains 'theme-wet-boew/index-en.html' %}
+<li><a href="http://wet-boew.github.io/wet-boew/wet-boew-jekyll/theme-wet-boew/index-en.html">WET theme</a></li>
+{% endunless %}
+{% endif %}
+<li>{{ page.title }}</li>
+</ol>
+</div></div>

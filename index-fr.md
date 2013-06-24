@@ -2,10 +2,8 @@
 published: true
 layout: "default-theme-wet-boew-fr"
 permalink: "index-fr.html"
-filename_root: "index"
-title: "Page d'accueil"
-breadcrumb_parent1_url: "http://wet-boew.github.io/wet-boew/demos/index-fra.html"
-breadcrumb_parent1_name: "Exemples pratiques"
+filename_root: index
+title: Page d'accueil
 ---
 
 ## Pages Web normales ##
