@@ -4,7 +4,7 @@ layout: "default-theme-gcwu-intranet-fr"
 permalink: "index-fr.html"
 filename_root: index
 title: Thème de la facilité d’emploi Web GC pour les sites intranet
-description: French description / Description en français
+description: "Thème de la facilité d’emploi Web GC pour les sites intranet - Variant pour Jekyll - Boîte à outils de l'expérience Web (BOEW)"
 creator: French name of the content author / Nom en français de l'auteur du contenu
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 issued: "Date published (YYYY-MM-DD) / Date de publication (AAAA-MM-JJ)"

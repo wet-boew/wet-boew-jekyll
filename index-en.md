@@ -4,6 +4,8 @@ layout: "default-theme-wet-boew-en"
 permalink: "index-en.html"
 filename_root: index
 title: Home page
+description: "Jekyll variant - Web Experience Toolkit (WET)"
+modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 
 ## Normal Web pages ##
