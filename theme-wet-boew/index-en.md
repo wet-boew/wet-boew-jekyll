@@ -4,7 +4,7 @@ layout: "default-theme-wet-boew-en"
 permalink: "index-en.html"
 filename_root: index
 title: WET theme
-description: English description / Description en anglais
+description: "WET theme - Jekyll variant - Web Experience Toolkit (WET)"
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 

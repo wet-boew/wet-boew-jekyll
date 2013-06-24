@@ -4,7 +4,7 @@ layout: "default-theme-ogpl-fr"
 permalink: "index-fr.html"
 filename_root: index
 title: Thème de la PGO
-description: French description / Description en français
+description: "Thème de la PGO - Variant pour Jekyll - Boîte à outils de l'expérience Web (BOEW)"
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 

@@ -4,7 +4,7 @@ layout: "default-theme-wet-boew-fr"
 permalink: "index-fr.html"
 filename_root: index
 title: Thème de la BOEW
-description: French description / Description en français
+description: "Thème de la BOEW - Variant pour Jekyll - Boîte à outils de l'expérience Web (BOEW)"
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 
