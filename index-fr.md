@@ -3,7 +3,7 @@ published: true
 layout: "default-theme-wet-boew-fr"
 permalink: "index-fr.html"
 filename_root: index
-title: Page d'accueil du variant pour Jekyll
+title: Variant pour Jekyll
 description: "Variant pour Jekyll - Boîte à outils de l'expérience Web (BOEW)"
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
