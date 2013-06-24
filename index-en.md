@@ -3,7 +3,7 @@ published: true
 layout: "default-theme-wet-boew-en"
 permalink: "index-en.html"
 filename_root: index
-title: Jekyll variant home page
+title: Jekyll variant
 description: "Jekyll variant - Web Experience Toolkit (WET)"
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
