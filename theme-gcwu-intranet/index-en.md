@@ -4,7 +4,7 @@ layout: "default-theme-gcwu-intranet-en"
 permalink: "index-en.html"
 filename_root: index
 title: GC Web Usability Intranet theme
-description: English description / Description en anglais
+description: "GC Web Usability Intranet theme - Jekyll variant - Web Experience Toolkit (WET)"
 creator: English name of the content author / Nom en anglais de l'auteur du contenu
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 issued: "Date published (YYYY-MM-DD) / Date de publication (AAAA-MM-JJ)"

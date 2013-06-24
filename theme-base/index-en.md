@@ -4,7 +4,7 @@ layout: "default-theme-base-en"
 permalink: "index-en.html"
 filename_root: index
 title: Base theme
-description: English description / Description en anglais
+description: "Base theme - Jekyll variant - Web Experience Toolkit (WET)"
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 
