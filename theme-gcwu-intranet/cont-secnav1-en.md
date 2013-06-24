@@ -4,22 +4,12 @@ layout: "default-theme-gcwu-intranet-en"
 permalink: "cont-secnav1-en.html"
 filename_root: "cont-secnav1"
 title: "Content page - Secondary menu 1 - GC Web Usability Intranet theme"
-description: "English description / Description en anglais"
-creator: "English name of the content author / Nom en anglais de l'auteur du contenu"
+description: English description / Description en anglais
+creator: English name of the content author / Nom en anglais de l'auteur du contenu
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 issued: "Date published (YYYY-MM-DD) / Date de publication (AAAA-MM-JJ)"
-subject: "English subject terms / Termes de sujet en anglais"
-breadcrumb_parent1_url: "http://wet-boew.github.io/wet-boew/demos/index-eng.html"
-breadcrumb_parent1_name: "Working examples"
-breadcrumb_parent2_url: "../index-en.html"
-breadcrumb_parent2_name: "Jekyll variant"
-breadcrumb_parent3_url: "index-en.html"
-breadcrumb_parent3_name: "GC Web Usability Intranet theme"
-breadcrumb_parent4_url: "section4/index-en.html"
-breadcrumb_parent4_name: "Section 4"
-breadcrumb_parent5_url: "section4/section43/index-en.html"
-breadcrumb_parent5_name: "Section 4.3"
+subject: English subject terms / Termes de sujet en anglais
 secondary_menu: true
-secondary_menu_include: "secnav1"
+secondary_menu_include: secnav1
 ---
 

@@ -1,0 +1,14 @@
+
+<div id="ogpl-bc"><h2>Breadcrumb trail</h2><div id="ogpl-bc-in">
+<ol>
+<li><a href="http://wet-boew.github.io/wet-boew/index-eng.html">Home</a></li>
+<li><a href="http://wet-boew.github.io/wet-boew/demos/index-eng.html">Working examples</li>
+{% if page.url contains 'theme-ogpl/' %}
+<li><a href="http://wet-boew.github.io/wet-boew/wet-boew-jekyll/index-en.html">Jekyll variant</li>
+{% unless page.url contains 'theme-ogpl/index-en.html' %}
+<li><a href="http://wet-boew.github.io/wet-boew/wet-boew-jekyll/theme-ogpl/index-en.html">OGPL theme</li>
+{% endunless %}
+{% endif %}
+<li>{{ page.title }}</li>
+</ol>
+</div></div>

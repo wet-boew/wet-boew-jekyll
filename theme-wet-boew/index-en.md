@@ -2,14 +2,10 @@
 published: true
 layout: "default-theme-wet-boew-en"
 permalink: "index-en.html"
-filename_root: "index"
-title: "WET theme"
-description: "English description / Description en anglais"
+filename_root: index
+title: WET theme
+description: English description / Description en anglais
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
-breadcrumb_parent1_url: "http://wet-boew.github.io/wet-boew/demos/index-eng.html"
-breadcrumb_parent1_name: "Working examples"
-breadcrumb_parent2_url: "../index-en.html"
-breadcrumb_parent2_name: "Jekyll variant"
 ---
 
 ## Normal Web pages ##
