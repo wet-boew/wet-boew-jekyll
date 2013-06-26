@@ -53,7 +53,7 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 {% else %}
 <ul>
 <li id="ogpl-fullhd-lang-current">Français</li>
-<li id="ogpl-fullhd-lang-2"><a href="{{ page.filename_root }}{{ post.filename_root }}-en.html" lang="en">English</a></li>
+<li id="ogpl-fullhd-lang-2"><a href="{{ page.filename_root }}-en.html" lang="en">English</a></li>
 </ul>
 {% endif %}
 </div>
@@ -75,7 +75,7 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 {% if page.subsite == false %}{% elsif site.subsite == false and page.subsite != true %}
 {% elsif site.subsite == true or page.subsite == true %}
 <div id="ogpl-subsite" class="ogpl-subsite-1">
-<p><a href="{{ page.subsite_url }}{{ post.subsite_url }}">{{ page.subsite_name }}</a></p>
+<p><a href="{{ page.subsite_url }}">{{ page.subsite_name }}</a></p>
 </div>
 {% endif %}
 </div>
