@@ -20,4 +20,4 @@ subject: English subject terms / Termes de sujet en anglais
 * [Content page - No search, language selection link, site menu or breadcrumb trail](cont-nosearchlangsitemenubc-en.html)
 
 ## Blog posts ##
-* [Blog post](/2013-06-13-theme-gcwu-fegc-en.html)
+* [Blog post](../2013-06-13-theme-gcwu-fegc-en.html)

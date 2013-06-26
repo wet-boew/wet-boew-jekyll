@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-ogpl-en"
+layout: "post-theme-ogpl-en"
 permalink: "2013-06-11-theme-ogpl-en.html"
 filename_root: "2013-06-11-theme-ogpl"
 title: "Example blog post - OGPL theme"

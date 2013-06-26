@@ -3,7 +3,7 @@
 <ol>
 <li><a href="http://wet-boew.github.io/wet-boew/index-eng.html">Home</a></li>
 <li><a href="http://wet-boew.github.io/wet-boew/demos/index-eng.html">Working examples</a></li>
-{% if page.url contains 'theme-base/' %}
+{% if page.url contains 'theme-base/' or post.url contains '-theme-base' %}
 <li><a href="http://wet-boew.github.io/wet-boew/wet-boew-jekyll/index-en.html">Jekyll variant</a></li>
 {% unless page.url contains 'theme-base/index-en.html' %}
 <li><a href="http://wet-boew.github.io/wet-boew/wet-boew-jekyll/theme-base/index-en.html">Base theme</a></li>
