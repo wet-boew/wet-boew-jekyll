@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-gcwu-fegc-fr"
+layout: "post-theme-gcwu-fegc-fr"
 permalink: "2013-06-13-theme-gcwu-fegc-fr.html"
 filename_root: "2013-06-13-theme-gcwu-fegc"
 title: "Exemple d'un article de blogue - Thème de la facilité d'emploi Web GC"

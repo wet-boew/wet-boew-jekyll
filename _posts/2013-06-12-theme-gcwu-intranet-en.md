@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-gcwu-intranet-en"
+layout: "post-theme-gcwu-intranet-en"
 permalink: "2013-06-12-theme-gcwu-intranet-en.html"
 filename_root: "2013-06-12-gcwu-intranet-boew"
 title: "Example blog post - GC Web Usability Intranet theme"

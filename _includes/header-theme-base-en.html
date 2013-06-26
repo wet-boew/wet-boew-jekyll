@@ -33,15 +33,17 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <!-- CustomCSSStart -->
 {% if page.css_href and page.css_href contains '.css' %}
 <link rel='stylesheet' href='{{ page.css_href }}' />
+{% elsif post.css_href and post.css_href contains '.css' %}
+<link rel='stylesheet' href='{{ post.css_href }}' />
 {% endif %}
 <!-- CustomCSSEnd -->
 </head>
 
-<body><div id="wb-body{% if page.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true %}{% elsif page.secondary_menu == true or site.secondary_menu == true %}-sec{% endif %}">
+<body><div id="wb-body{% if page.secondary_menu == false or post.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true and post.secondary_menu != true %}{% elsif site.secondary_menu == true or page.secondary_menu == true or post.secondary_menu == true %}-sec{% endif %}">
 <div id="wb-skip">
 <ul id="wb-tphp">
 <li id="wb-skip1"><a href="#wb-cont">Skip to main content</a></li>
-<li id="wb-skip2"><a href="#wb-nav">Skip to {% if page.secondary_menu == false %}footer{% elsif site.secondary_menu == false and page.secondary_menu != true %}footer{% else %}secondary menu{% endif %}</a></li>
+<li id="wb-skip2"><a href="#wb-nav">Skip to {% if page.secondary_menu == false or post.secondary_menu == false %}footer{% elsif site.secondary_menu == false and page.secondary_menu != true and post.secondary_menu != true %}footer{% else %}secondary menu{% endif %}</a></li>
 </ul>
 </div>
 
@@ -51,10 +53,10 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <p class="mobile-hide">id="base-fullhd"</p>
 <div id="base-fullhd-in">
 <p class="mobile-hide">id="base-fullhd-in"</p>
-{% if page.languages == false %}{% elsif site.languages == false and page.languages != true %}
+{% if page.languages == false or post.languages == false %}{% elsif site.languages == false and page.languages != true and post.languages != true %}
 {% else %}
 <ul>
-<li id="base-fullhd-lang"><a href="{{ page.filename_root }}-fr.html" lang="fr">Français</a></li>
+<li id="base-fullhd-lang"><a href="{{ page.filename_root }}{{ post.filename_root }}-fr.html" lang="fr">Français</a></li>
 </ul>
 {% endif %}
 </div>
@@ -62,7 +64,7 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 
 <div id="base-bnr" role="banner"><div id="base-bnr-in">
 <div id="base-title"><p id="base-title-in"><a href="http://wet-boew.github.io/wet-boew/index-eng.html">Web Experience Toolkit&#160;(WET) <small>Collaborative open source project led by the Government of Canada</small></a></p></div>
-{% if page.search == false %}{% elsif site.search == false and page.search != true %}
+{% if page.search == false or post.search == false %}{% elsif site.search == false and page.search != true and post.search != true %}
 {% else %}
 
 <section role="search"><div id="base-srchbx"><h2>Search</h2>
@@ -73,23 +75,28 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 </div></section>
 {% endif %}
 </div>
-{% if page.subsite == false %}{% elsif site.subsite == false and page.subsite != true %}
-{% elsif page.subsite == true or site.subsite == true %}
+{% if page.subsite == false or post.subsite == false %}{% elsif site.subsite == false and page.subsite != true and post.subsite != true %}
+{% elsif site.subsite == true or page.subsite == true or post.subsite == true %}
 <div id="base-subsite" class="base-subsite-1">
-<p><a href="{{ page.subsite_url }}">{{ page.subsite_name }}</a></p>
+<p><a href="{{ page.subsite_url }}{{ post.subsite_url }}">{{ page.subsite_name }}{{ post.subsite_name }}</a></p>
 </div>
 {% endif %}
 </div>
-{% if page.site_menu == false and page.breadcrumb == false %}{% elsif page.site_menu == false and page.site_menu != true and site.breadcrumb == false and page.breadcrumb != true %}{% elsif site.site_menu == false and page.site_menu != true and page.breadcrumb == false %}{% elsif site.site_menu == false and page.site_menu != true site.breadcrumb == false and page.breadcrumb != true %}
-{% else %}
+{% if page.site_menu == false or post.site_menu == false %}{% elsif site.site_menu == false and page.site_menu != true and post.site_menu != true %}
+{% elsif site.content_editable == true and page.site_menu == true or post.site_menu == true %}
+{% assign site_menu = true %}
+{% endif %}
+{% if page.breadcrumb == false or post.breadcrumb == false %}{% elsif site.breadcrumb == false and page.breadcrumb != true and post.breadcrumb != true %}
+{% elsif site.breadcrumb == true and page.breadcrumb == true or post.breadcrumb == true %}
+{% assign breadcrumb = true %}
+{% endif %}
+{% if site_menu == true and breadcrumb == true %}
 
 <nav role="navigation">
-{% if page.site_menu == false %}{% elsif site.site_menu == false and page.site_menu != true %}
-{% else %}
+{% if site_menu == true %}
 {% include sitemenu-theme-base-en.html %}
 {% endif %}
-{% if page.breadcrumb == false %}{% elsif site.breadcrumb == false and page.breadcrumb != true %}
-{% else %}
+{% if breadcrumb == true %}
 {% include breadcrumb-theme-base-en.html %}
 {% endif %}
 </nav>
