@@ -1,4 +1,4 @@
-<div id="wb-foot"><div id="wb-foot-in"><footer><h2{{% if page.secondary_menu == false or post.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true and post.secondary_menu != true %}{% else %} id="wb-nav"{% endif %}>Footer</h2>
+<div id="wb-foot"><div id="wb-foot-in"><footer><h2{{% if page.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true %}{% else %} id="wb-nav"{% endif %}>Footer</h2>
 <!-- FooterStart -->
 <nav role="navigation"><div id="ogpl-sft"><h3>Site footer</h3><div id="ogpl-sft-in">
 <section><div class="span-2"><h4 class="ogpl-col-head">About OGPL</h4>
@@ -50,8 +50,6 @@
 <script src="http://wet-boew.github.io/wet-boew-jekyll/assets/javascripts/global.js"></script>
 {% if page.script_src and page.script_src contains '.js' %}
 <link rel='stylesheet' href='{{ page.script_src }}' />
-{% elsif post.script_src and post.script_src contains '.js' %}
-<link rel='stylesheet' href='{{ post.script_src }}' />
 {% endif %}
 <!-- CustomScriptsEnd -->
 </body>

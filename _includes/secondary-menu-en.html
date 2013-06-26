@@ -1,10 +1,8 @@
 <div id="wb-sec"><div id="wb-sec-in"><nav role="navigation"><h2 id="wb-nav">Secondary menu</h2>
 <div class="wb-sec-def">
 <!-- SecNavStart -->
-{% if site.secondary_menu_include == 'secnav1' or page.secondary_menu_include == 'secnav1' or post.secondary_menu_include == 'secnav1' %}
-{% if page.secondary_menu_include and page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav1' %}
-{% elsif post.secondary_menu_include and post.secondary_menu_include != '' and post.secondary_menu_include != 'secnav1' %}
-{% else %}
+{% if site.secondary_menu_include == 'secnav1' or page.secondary_menu_include == 'secnav1' %}
+{% unless page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav1' %}
 <div><ul>
 <li class="top-level"><a href="#">Item 4a</a></li>
 <li class="top-level"><a href="#">Item 4b</a></li>
@@ -39,12 +37,10 @@
 <li><a href="#">Item 4.4.4</a></li>
 </ul>
 </section>
+{% endunless %}
 {% endif %}
-{% endif %}
-{% if site.secondary_menu_include == 'secnav2' or page.secondary_menu_include == 'secnav2' or post.secondary_menu_include == 'secnav2' %}
-{% if page.secondary_menu_include and page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav2' %}
-{% elsif post.secondary_menu_include and post.secondary_menu_include != '' and post.secondary_menu_include != 'secnav2' %}
-{% else %}
+{% if site.secondary_menu_include == 'secnav2' or page.secondary_menu_include == 'secnav2' %}
+{% unless page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav2' %}
 <section><h3 class="top-section"><a href="section4/index-eng.html">Section 4</a></h3>
 <div><ul>
 <li class="top-level"><a href="#">Item 4a</a></li>
@@ -81,7 +77,7 @@
 </ul>
 </section>
 </section>
-{% endif %}
+{% endunless %}
 {% endif %}
 <!-- SecNavEnd -->
 </div>
