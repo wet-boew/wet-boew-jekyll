@@ -1,13 +1,13 @@
-{% if page.content_editable == false or post.content_editable == false %}{% elsif site.content_editable == false and page.content_editable != true and post.content_editable != true %}
-{% elsif site.content_editable == true or page.content_editable == true or post.content_editable == true %}
+{% if page.content_editable == false %}{% elsif site.content_editable == false and page.content_editable != true %}
+{% elsif site.content_editable == true or page.content_editable == true %}
 {% assign content_editable = true %}
 {% endif %}
-{% if page.content_revision_history == false or post.content_revision_history == false %}{% elsif site.content_revision_history == false and page.content_revision_history != true and post.content_revision_history != true %}
-{% elsif site.content_revision_history == true or page.content_revision_history == true or post.content_revision_history == true %}
+{% if page.content_revision_history == false %}{% elsif site.content_revision_history == false and page.content_revision_history != true %}
+{% elsif site.content_revision_history == true or page.content_revision_history == true %}
 {% assign content_revision_history = true %}
 {% endif %}
-{% if page.content_questions_comments == false or post.content_questions_comments == false %}{% elsif site.content_questions_comments == false and page.content_questions_comments != true and and post.content_questions_comments != true %}
-{% elsif site.content_questions_comments == true or page.content_questions_comments == true or post.content_questions_comments == true %}
+{% if page.content_questions_comments == false %}{% elsif site.content_questions_comments == false and page.content_questions_comments != true %}
+{% elsif site.content_questions_comments == true or page.content_questions_comments == true %}
 {% assign content_questions_comments = true %}
 {% endif %}
 {% if content_editable == true or content_revision_history == true or content_questions_comments == true %}
