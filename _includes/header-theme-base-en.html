@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licence-fra.html -->
+<title>{% unless page.url == '/index-en.html' %}{{ page.title }} - {% endunless %}{{ site.title_en }}</title>
+
+<link rel="shortcut icon" href="http://wet-boew.github.io/wet-boew/dist/theme-base/images/favicon.ico" />
+<meta name="description" content="{% if page.description and page.description != '' %}{{ page.description }}{% else %}{{ site.description_en }}{% endif %}" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!--[if lte IE 8]>
+<script src="http://wet-boew.github.io/wet-boew/dist/js/jquery-ie.min.js"></script>
+<script src="http://wet-boew.github.io/wet-boew/dist/js/polyfills/html5shiv-min.js"></script>
+<link rel="stylesheet" href="http://wet-boew.github.io/wet-boew/dist/grids/css/util-ie-min.css" />
+<link rel="stylesheet" href="http://wet-boew.github.io/wet-boew/dist/js/css/pe-ap-ie-min.css" />
+<link rel="stylesheet" href="http://wet-boew.github.io/wet-boew/dist/theme-base/css/theme-ie-min.css" />
+<noscript><link rel="stylesheet" href="http://wet-boew.github.io/wet-boew/dist/theme-base/css/theme-ns-ie-min.css" /></noscript>
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<script src="http://wet-boew.github.io/wet-boew/dist/js/jquery.min.js"></script>
+<link rel="stylesheet" href="http://wet-boew.github.io/wet-boew/dist/grids/css/util-min.css" />
+<link rel="stylesheet" href="http://wet-boew.github.io/wet-boew/dist/js/css/pe-ap-min.css" />
+<link rel="stylesheet" href="http://wet-boew.github.io/wet-boew/dist/theme-base/css/theme-min.css" />
+<noscript><link rel="stylesheet" href="http://wet-boew.github.io/wet-boew/dist/theme-base/css/theme-ns-min.css" /></noscript>
+<!--<![endif]-->
+
+<!-- CustomCSSStart -->
+{% if page.css_href and page.css_href contains '.css' %}
+<link rel='stylesheet' href='{{ page.css_href }}' />
+{% endif %}
+<!-- CustomCSSEnd -->
+</head>
+
+<body><div id="wb-body{% if page.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true %}{% elsif site.secondary_menu == true or page.secondary_menu == true %}-sec{% endif %}">
+<div id="wb-skip">
+<ul id="wb-tphp">
+<li id="wb-skip1"><a href="#wb-cont">Skip to main content</a></li>
+<li id="wb-skip2"><a href="#wb-nav">Skip to {% if page.secondary_menu == false %}footer{% elsif site.secondary_menu == false and page.secondary_menu != true %}footer{% else %}secondary menu{% endif %}</a></li>
+</ul>
+</div>
+
+<div id="wb-head"><div id="wb-head-in"><header>
+<!-- HeaderStart -->
+<section><div id="base-fullhd"><h2>Header bar</h2>
+<p class="mobile-hide">id="base-fullhd"</p>
+<div id="base-fullhd-in">
+<p class="mobile-hide">id="base-fullhd-in"</p>
+{% if page.languages == false %}{% elsif site.languages == false and page.languages != true %}
+{% else %}
+<ul>
+<li id="base-fullhd-lang"><a href="{{ page.filename_root }}-fr.html" lang="fr">Français</a></li>
+</ul>
+{% endif %}
+</div>
+</div></section>
+
+<div id="base-bnr" role="banner"><div id="base-bnr-in">
+<div id="base-title"><p id="base-title-in"><a href="http://wet-boew.github.io/wet-boew/index-eng.html">Web Experience Toolkit&#160;(WET) <small>Collaborative open source project led by the Government of Canada</small></a></p></div>
+{% if page.search == false %}{% elsif site.search == false and page.search != true %}
+{% else %}
+
+<section role="search"><div id="base-srchbx"><h2>Search</h2>
+<form action="#" method="post"><div id="base-srchbx-in">
+<label for="base-srch">Search website</label><input id="base-srch" name="base-srch" type="search" value="" size="27" maxlength="150" />
+<input id="base-srch-submit" name="base-srch-submit" type="submit" value="Search" data-icon="search" class="button button-accent" />
+</div></form>
+</div></section>
+{% endif %}
+</div>
+{% if page.subsite == false %}{% elsif site.subsite == false and page.subsite != true %}
+{% elsif site.subsite == true or page.subsite == true %}
+<div id="base-subsite" class="base-subsite-1">
+<p><a href="{{ page.subsite_url }}">{{ page.subsite_name }}</a></p>
+</div>
+{% endif %}
+</div>
+{% if page.site_menu == false %}{% elsif site.site_menu == false and page.site_menu != true %}
+{% elsif site.site_menu == true or page.site_menu == true %}
+{% assign site_menu = true %}
+{% endif %}
+{% if page.breadcrumb == false %}{% elsif site.breadcrumb == false and page.breadcrumb != true %}
+{% elsif site.breadcrumb == true or page.breadcrumb == true %}
+{% assign breadcrumb = true %}
+{% endif %}
+{% if site_menu == true and breadcrumb == true %}
+
+<nav role="navigation">
+{% if site_menu == true %}
+{% include sitemenu-theme-base-en.html %}
+{% endif %}
+{% if breadcrumb == true %}
+{% include breadcrumb-theme-base-en.html %}
+{% endif %}
+</nav>
+{% endif %}
+<!-- HeaderEnd -->
+</header></div></div>
