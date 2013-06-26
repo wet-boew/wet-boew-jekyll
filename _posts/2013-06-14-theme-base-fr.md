@@ -5,7 +5,7 @@ permalink: "2013-06-14-theme-base-fr.html"
 filename_root: "2013-06-14-theme-base"
 title: "Exemple d'un article de blogue - Thème de base"
 description: French description / Description en français
-modified: ":year-:month-:day"
+modified: :year:month:day
 date_modified: true
 ---
 
