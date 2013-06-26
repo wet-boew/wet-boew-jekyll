@@ -1,36 +1,15 @@
 ---
-layout: "default-theme-gcwu-intranet-en"
 published: true
-permalink: 2013-06-12-theme-gcwu-intranet-en.html
-filename_root: 2013-06-12-gcwu-intranet-boew
-title: Example blog post - GC Web Usability Intranet theme
-description: "English description / Description en anglais"
-creator: "English name of the content author / Nom en anglais de l'auteur du contenu"
-issued: "Date published (YYYY-MM-DD) / Date de publication (AAAA-MM-JJ)"
-subject: "English subject terms / Termes de sujet en anglais"
-languages:
-search:
-subsite:
-site_menu:
-breadcrumb:
-breadcrumb_parent1_url: "http://wet-boew.github.io/wet-boew/demos/index-eng.html"
-breadcrumb_parent1_name: "Working examples"
-breadcrumb_parent2_url: "../index-en.html"
-breadcrumb_parent2_name: "Jekyll variant"
-breadcrumb_parent3_url: ../theme-gcwu-intranet/index-en.html
-breadcrumb_parent3_name: "GC Web Usability Intranet theme"
-breadcrumb_parent4_url:
-breadcrumb_parent4_name:
-breadcrumb_parent5_url:
-breadcrumb_parent5_name:
-content_editable:
-content_revision_history:
-content_questions_comments:
+layout: "default-theme-gcwu-intranet-en"
+permalink: "2013-06-12-theme-gcwu-intranet-en.html"
+filename_root: "2013-06-12-gcwu-intranet-boew"
+title: "Example blog post - GC Web Usability Intranet theme"
+description: English description / Description en anglais
+creator: English name of the content author / Nom en anglais de l'auteur du contenu
+modified: ":year-:month-:day"
+issued: ":year-:month-:day"
+subject: English subject terms / Termes de sujet en anglais
 date_modified: true
-secondary_menu:
-secondary_menu_include:
-css_href:
-script_src:
 ---
 
 Introductory paragraph of a blog post using the GC Web Usability Intranet theme.

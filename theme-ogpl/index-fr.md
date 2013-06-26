@@ -18,4 +18,4 @@ modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 * [Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane](cont-nosearchlangsitemenubc-fr.html)
 
 ## Articles de blogue ##
-* [Article de blogue](../_posts/2013-06-11-theme-ogpl-fr.html)
+* [Article de blogue](/2013-06-11-theme-ogpl-fr.html)

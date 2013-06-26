@@ -21,4 +21,4 @@ subject: French subject terms / Termes de sujet en français
 * [Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane](cont-nosearchlangsitemenubc-fr.html)
 
 ## Articles de blogue ##
-* [Article de blogue](../_posts/2013-06-12-theme-gcwu-intranet-fr.html)
+* [Article de blogue](/2013-06-12-theme-gcwu-intranet-fr.html)
