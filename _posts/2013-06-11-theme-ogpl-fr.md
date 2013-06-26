@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-ogpl-fr"
+layout: "post-theme-ogpl-fr"
 permalink: "2013-06-11-theme-ogpl-fr.html"
 filename_root: "2013-06-11-theme-ogpl"
 title: "Exemple d'un article de blogue - Thème de la PGO"

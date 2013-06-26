@@ -1,8 +1,9 @@
 <div id="wb-sec"><div id="wb-sec-in"><nav role="navigation"><h2 id="wb-nav">Menu secondaire</h2>
 <div class="wb-sec-def">
 <!-- SecNavStart -->
-{% if site.secondary_menu_include == 'secnav1' or page.secondary_menu_include == 'secnav1' %}
-{% if page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav1' %}
+{% if site.secondary_menu_include == 'secnav1' or page.secondary_menu_include == 'secnav1' or post.secondary_menu_include == 'secnav1' %}
+{% if page.secondary_menu_include and page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav1' %}
+{% elsif post.secondary_menu_include and post.secondary_menu_include != '' and post.secondary_menu_include != 'secnav1' %}
 {% else %}
 <div><ul>
 <li class="top-level"><a href="#">Article 4a</a></li>
@@ -40,8 +41,9 @@
 </section>
 {% endif %}
 {% endif %}
-{% if site.secondary_menu_include == 'secnav2' or page.secondary_menu_include == 'secnav2' %}
-{% if page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav2' %}
+{% if site.secondary_menu_include == 'secnav2' or page.secondary_menu_include == 'secnav2' or post.secondary_menu_include == 'secnav2' %}
+{% if page.secondary_menu_include and page.secondary_menu_include != '' and page.secondary_menu_include != 'secnav2' %}
+{% elsif post.secondary_menu_include and post.secondary_menu_include != '' and post.secondary_menu_include != 'secnav2' %}
 {% else %}
 <section><h3 class="top-section"><a href="section4/index-fra.html">Section 4</a></h3>
 <div><ul>

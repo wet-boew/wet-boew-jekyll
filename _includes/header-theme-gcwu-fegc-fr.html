@@ -39,15 +39,17 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <!-- CustomCSSStart -->
 {% if page.css_href and page.css_href contains '.css' %}
 <link rel='stylesheet' href='{{ page.css_href }}' />
+{% elsif post.css_href and post.css_href contains '.css' %}
+<link rel='stylesheet' href='{{ post.css_href }}' />
 {% endif %}
 <!-- CustomCSSEnd -->
 </head>
 
-<body><div id="wb-body{% if page.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true %}{% elsif page.secondary_menu == true or site.secondary_menu == true %}-sec{% endif %}">
+<body><div id="wb-body{% if page.secondary_menu == false or post.secondary_menu == false %}{% elsif site.secondary_menu == false and page.secondary_menu != true and post.secondary_menu != true %}{% elsif site.secondary_menu == true or page.secondary_menu == true or post.secondary_menu == true %}-sec{% endif %}">
 <div id="wb-skip">
 <ul id="wb-tphp">
 <li id="wb-skip1"><a href="#wb-cont">Passer au contenu principal</a></li>
-<li id="wb-skip2"><a href="#wb-nav">Passer au {% if page.secondary_menu == false %}pied de page{% elsif site.secondary_menu == false and page.secondary_menu != true %}pied de page{% else %}menu secondaire{% endif %}</a></li>
+<li id="wb-skip2"><a href="#wb-nav">Passer au {% if page.secondary_menu == false or post.secondary_menu == false %}pied de page{% elsif site.secondary_menu == false and page.secondary_menu != true and post.secondary_menu != true %}pied de page{% else %}menu secondaire{% endif %}</a></li>
 </ul>
 </div>
 
@@ -59,9 +61,9 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <li id="gcwu-gcnb1"><a rel="external" href="http://www.canada.gc.ca/menu-fra.html">Canada.gc.ca</a></li>
 <li id="gcwu-gcnb2"><a rel="external" href="http://www.servicecanada.gc.ca/fra/accueil.shtml">Services</a></li>
 <li id="gcwu-gcnb3"><a rel="external" href="http://www.canada.gc.ca/aboutgov-ausujetgouv/depts/menu-fra.html">Ministères</a></li>
-{% if page.languages == false %}{% elsif site.languages == false and page.languages != true %}
+{% if page.languages == false or post.languages == false %}{% elsif site.languages == false and page.languages != true and post.languages != true %}
 {% else %}
-<li id="gcwu-gcnb-lang"><a href="{{ page.filename_root }}-en.html" lang="en">English</a></li>
+<li id="gcwu-gcnb-lang"><a href="{{ page.filename_root }}{{ post.filename_root }}-en.html" lang="en">English</a></li>
 {% endif %}
 </ul>
 </div></div></div></nav>
@@ -69,7 +71,7 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 <div id="gcwu-bnr" role="banner"><div id="gcwu-bnr-in">
 <div id="gcwu-wmms"><div id="gcwu-wmms-in"><object data="http://wet-boew.github.io/wet-boew/dist/theme-gcwu-fegc/images/wmms.svg" role="img" tabindex="-1" aria-label="Symbole du gouvernement du Canada" type="image/svg+xml"><img src="http://wet-boew.github.io/wet-boew/dist/theme-gcwu-fegc/images/wmms.png" alt="Symbole du gouvernement du Canada" /></object></div></div>
 <div id="gcwu-title"><p id="gcwu-title-in"><a href="http://wet-boew.github.io/wet-boew/index-fra.html">Boîte à outils de l'expérience Web&#160;(BOEW)</a></p></div>
-{% if page.search == false %}{% elsif site.search == false and page.search != true %}
+{% if page.search == false or post.search == false %}{% elsif site.search == false and page.search != true and post.search != true %}
 {% else %}
 
 <section role="search"><div id="gcwu-srchbx"><h2>Recherche</h2>
@@ -80,23 +82,28 @@ wet-boew.github.io/wet-boew/License-eng.html / wet-boew.github.io/wet-boew/Licen
 </div></section>
 {% endif %}
 </div>
-{% if page.subsite == false %}{% elsif site.subsite == false and page.subsite != true %}
-{% elsif page.subsite == true or site.subsite == true %}
+{% if page.subsite == false or post.subsite == false %}{% elsif site.subsite == false and page.subsite != true and post.subsite != true %}
+{% elsif site.subsite == true or page.subsite == true or post.subsite == true %}
 <div id="gcwu-subsite" class="gcwu-subsite-1">
-<p><a href="{{ page.subsite_url }}">{{ page.subsite_name }}</a></p>
+<p><a href="{{ page.subsite_url }}{{ post.subsite_url }}">{{ page.subsite_name }}{{ post.subsite_name }}</a></p>
 </div>
 {% endif %}
 </div>
-{% if page.site_menu == false and page.breadcrumb == false %}{% elsif page.site_menu == false and page.site_menu != true and site.breadcrumb == false and page.breadcrumb != true %}{% elsif site.site_menu == false and page.site_menu != true and page.breadcrumb == false %}{% elsif site.site_menu == false and page.site_menu != true site.breadcrumb == false and page.breadcrumb != true %}
-{% else %}
+{% if page.site_menu == false or post.site_menu == false %}{% elsif site.site_menu == false and page.site_menu != true and post.site_menu != true %}
+{% elsif site.content_editable == true and page.site_menu == true or post.site_menu == true %}
+{% assign site_menu = true %}
+{% endif %}
+{% if page.breadcrumb == false or post.breadcrumb == false %}{% elsif site.breadcrumb == false and page.breadcrumb != true and post.breadcrumb != true %}
+{% elsif site.breadcrumb == true and page.breadcrumb == true or post.breadcrumb == true %}
+{% assign breadcrumb = true %}
+{% endif %}
+{% if site_menu == true and breadcrumb == true %}
 
 <nav role="navigation">
-{% if page.site_menu == false %}{% elsif site.site_menu == false and page.site_menu != true %}
-{% else %}
+{% if site_menu == true %}
 {% include sitemenu-theme-gcwu-fegc-fr.html %}
 {% endif %}
-{% if page.breadcrumb == false %}{% elsif site.breadcrumb == false and page.breadcrumb != true %}
-{% else %}
+{% if breadcrumb == true %}
 {% include breadcrumb-theme-gcwu-fegc-fr.html %}
 {% endif %}
 </nav>
