@@ -6,7 +6,7 @@
 		var $editLink = $('#edit-page'),
 			request = false;
 		if ($editLink.length !== 0) {
-			$editLink.attr('href', $editLink.attr('href').replace('http://prose.io/#', 'https://github.com/').replace('edit/', 'blob/'));
+			$editLink.attr('href', 'https://github.com/' + $editLink.attr('href').substring(17).replace('edit', 'blob'));
 		}
 	}
 }(jQuery));
