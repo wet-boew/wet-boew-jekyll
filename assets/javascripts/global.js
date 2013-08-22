@@ -3,10 +3,9 @@
 	"use strict";
 	// Test that browser supports CORS (uses test from prose/boot.js). Intended to reroute to fallback when Prose won't work. 
 	if (!('withCredentials' in new XMLHttpRequest())) {
-		var $editLink = $('#edit-page'),
-			request = false;
-		if ($editLink.length !== 0) {
-			$editLink.attr('href', 'https://github.com/' + $editLink.attr('href').substring(17).replace('edit', 'blob'));
+		var edit_link = document.getElementById('edit-link');
+		if (edit_link !== null) {
+			edit_link.href = edit_link.href.replace(/^http:\/\/prose\.io\/#/, 'https://github.com/').replace(/\/edit\//, '/blob/');
 		}
 	}
 }(jQuery));
