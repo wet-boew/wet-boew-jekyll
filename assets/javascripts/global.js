@@ -1,5 +1,5 @@
-/*global jQuery: false, ActiveXObject: false*/
-(function ($) {
+/*global jQuery: false*/
+(function () {
 	"use strict";
 	// Test that browser supports CORS (uses test from prose/boot.js). Intended to reroute to fallback when Prose won't work. 
 	if (!('withCredentials' in new XMLHttpRequest())) {
