@@ -21,7 +21,7 @@ modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 {% if post.url contains '-en.html' %}
     <li>
 		<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-		<p>{{ post.excerpt }}</p>
+		{{ post.excerpt }}
     </li>
 {% endif %}
 {% endfor %}
