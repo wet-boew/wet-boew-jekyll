@@ -2,7 +2,7 @@
 published: true
 layout: "post-theme-gcwu-intranet-en"
 permalink: "2013-06-12-theme-gcwu-intranet-en.html"
-filename_root: "2013-06-12-gcwu-intranet-boew"
+filename_root: "2013-06-12-theme-gcwu-intranet"
 title: "Example blog post - GC Web Usability Intranet theme"
 description: English description / Description en anglais
 creator: English name of the content author / Nom en anglais de l'auteur du contenu

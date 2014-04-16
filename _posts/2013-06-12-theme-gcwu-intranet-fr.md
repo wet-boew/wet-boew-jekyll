@@ -1,8 +1,8 @@
 ---
 published: true
 layout: "post-theme-gcwu-intranet-fr"
-permalink: "2013-06-13-theme-gcwu-intranet-fr.html"
-filename_root: "2013-06-13-theme-gcwu-intranet"
+permalink: "2013-06-12-theme-gcwu-intranet-fr.html"
+filename_root: "2013-06-12-theme-gcwu-intranet"
 title: "Exemple d'un article de blogue - Thème de la facilité d’emploi Web GC pour les sites intranet"
 description: French description / Description en français
 creator: French name of the content author / Nom en français de l'auteur du contenu

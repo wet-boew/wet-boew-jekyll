@@ -10,7 +10,7 @@ modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 issued: "Date published (YYYY-MM-DD) / Date de publication (AAAA-MM-JJ)"
 subject: French subject terms / Termes de sujet en français
 subsite: true
-subsite_url: #
+subsite_url: "#"
 subsite_name: "Nom du sous-site"
 ---
 

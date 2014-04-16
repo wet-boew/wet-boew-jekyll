@@ -6,6 +6,7 @@ filename_root: index
 title: OGPL theme
 description: "OGPL theme - Jekyll variant - Web Experience Toolkit (WET)"
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
+secondary_menu: true
 ---
 
 ## Normal Web pages ##
