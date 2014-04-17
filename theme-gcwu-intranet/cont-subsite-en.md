@@ -10,7 +10,7 @@ modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 issued: "Date published (YYYY-MM-DD) / Date de publication (AAAA-MM-JJ)"
 subject: English subject terms / Termes de sujet en anglais
 subsite: true
-subsite_url: #
+subsite_url: "#"
 subsite_name: "Sub-site name"
 description: English description / Description en anglais
 creator: English name of the content author / Nom en anglais de l'auteur du contenu

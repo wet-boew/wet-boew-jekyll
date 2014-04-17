@@ -7,7 +7,7 @@ title: "Page de contenu - Sous-site - Thème de la BOEW"
 description: French description / Description en français
 modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 subsite: true
-subsite_url: #
+subsite_url: "#"
 subsite_name: "Nom du sous-site"
 ---
 
