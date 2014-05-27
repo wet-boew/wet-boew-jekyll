@@ -11,6 +11,7 @@
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- Meta data -->
 		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ i18n.site.description }}{% else %}{{ page.description }}{% endif %}" />
+		{% include metadata-theme-gcwu-fegc.html %
 		<!-- Meta data-->
 		{% include headresources.html %}
 	</head>
@@ -35,12 +36,7 @@
 				<div id="wb-bar">
 					<div class="container">
 						<div class="row">
-{% unless page.languagetoggle == "false" %}
-							<section id="wb-lng" class="visible-md visible-lg">
-								<h2>{{ i18n.tmpl-lang-select }}</h2>
-								{% include languagetoggle.html %}
-							</section>
-{% endunless %}
+							{% include headerbar-theme-gcwu-fegc.html %}
 {% unless page.mobimenu == "false" %}
 							<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
 								<h2>{{ i18n.menu }}</h2>
@@ -53,14 +49,14 @@
 
 				<div class="container">
 					<div class="row">
-
-						<div id="wb-sttl" class="col-md-8">
+						<div id="wb-sttl" class="col-md-5">
 							{% include brand-theme-gcwu-fegc.html %}
 						</div>
+						{% include wordmark-theme-gcwu-fegc.html %}
 {% unless page.sitesearch == "false" %}
 						<section id="wb-srch" class="col-md-4 visible-md visible-lg">
 							<h2>{{ i18n.tmpl-search }}</h2>
-							{% include sitesearch-theme-gcwu-fegc.html %}
+							{% include sitesearch.html %}
 						</section>
 {% endunless %}
 					</div>
@@ -87,7 +83,6 @@
 {% endif %}
 		<main role="main" property="mainContentOfPage" class="{% if page.secondarymenu == "true" %}col-md-9 col-md-push-3{% else %}container{% endif %}">
 			<h1 id="wb-cont" property="name">{{ page.title }}</h1>
-			{% include sitewidemessages.html %}
 			{% include contentbuttons.html %}
 			{{ content }}
 {% if page.modified == null or page.modified == '' %}
@@ -109,8 +104,19 @@
 			<div class="container">
 				<nav role="navigation" class="row">
 					<h2>{{ i18n.tmpl-site-info" }}</h2>
-					{% include footer-theme-gcwu-fegc.html %}
+					{% include notices-theme-gcwu-fegc.html %}
+					<div class="row">
+						{% include footer-theme-gcwu-fegc.html %}
+					</div>
 				</nav>
+			</div>
+			<div id="gc-info">
+				<div class="container">
+					<nav role="navigation">
+						<h2>{{ i18n.tmpl-gc-foot }}</h2>
+						{% include gcfooter-theme-gcwu-fegc.html %}
+					</nav>
+				</div>
 			</div>
 		</footer>
 {% endunless %}

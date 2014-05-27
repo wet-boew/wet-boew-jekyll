@@ -1,16 +1,18 @@
 ---
 published: true
-layout: "default-theme-wet-boew-en"
+layout: "default-theme-wet-boew"
 permalink: "index-en.html"
-filename_root: index
 title: Jekyll variant
+language: en
+altLangPrefix: index
+dateModified: "2014-05-27"
 description: "Jekyll variant - Web Experience Toolkit (WET)"
-modified: "Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)"
 ---
 
 ## Normal Web pages ##
+* [Canada.ca theme](gcweb/index-en.html)
 * [GC Web Usability theme](theme-gcwu-fegc/index-en.html)
-* [GC Web Usability Intranet theme](theme-gcwu-intranet/index-en.html)
+* [GC Intranet theme](theme-gc-intranet/index-en.html)
 * [WET theme](theme-wet-boew/index-en.html)
 * [Base theme](theme-base/index-en.html)
 * [OGPL theme](theme-ogpl/index-en.html)
