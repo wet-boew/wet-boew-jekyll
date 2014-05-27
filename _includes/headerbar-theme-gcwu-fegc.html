@@ -1,0 +1,11 @@
+<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="http://wet-boew.github.io/themes-dist/theme-gcwu-fegc/assets/sig-{% if page.language == "en" %}en{% elsif page.language =="fr" %}fr{% else %}{{ site.defaultLanguage }}{% endif %}.svg" aria-label="{{ i18n.tmpl-gc-sig }}"></object>
+<ul id="gc-bar" class="list-inline">
+{% if page.language == "en" or page.language == "fr" %}
+	<li><a href="http://www.canada.ca/{{ page.language }}/index.html" rel="external">Canada.ca</a></li>
+	<li><a href="http://www.canada.ca/{{ page.language }}/services/index.html" rel="external">{{ i18n.tmpl-services }}</a></li>
+	<li><a href="http://www.canada.ca/{{ page.language }}/{{ i18n.tmpl-gov-url }}/{{ i18n.tmpl-dept-url }}/index.html" rel="external">{{ i18n.tmpl-depts }}</a></li>
+{% endif %}
+{% unless page.languagetoggle == "false" %}
+	{% include languagetoggle.html %}
+{% endunless %}
+</ul>

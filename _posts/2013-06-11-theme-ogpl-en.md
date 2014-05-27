@@ -1,12 +1,12 @@
 ---
 published: true
-layout: "post-theme-ogpl-en"
+layout: "default-theme-ogpl"
 permalink: "2013-06-11-theme-ogpl-en.html"
-filename_root: "2013-06-11-theme-ogpl"
 title: "Example blog post - OGPL theme"
+language: en
+altLangPrefix: "2013-06-11-theme-ogpl"
+dateModified: :year:month:day
 description: English description / Description en anglais
-modified: :year:month:day
-date_modified: true
 ---
 
 Introductory paragraph of a blog post using the OGPL theme.

@@ -60,7 +60,7 @@
 {% unless page.sitesearch == "false" %}
 						<section id="wb-srch" class="col-md-4 visible-md visible-lg">
 							<h2>{{ i18n.tmpl-search }}</h2>
-							{% include sitesearch-theme-base.html %}
+							{% include sitesearch.html %}
 						</section>
 {% endunless %}
 					</div>
@@ -87,7 +87,6 @@
 {% endif %}
 		<main role="main" property="mainContentOfPage" class="{% if page.secondarymenu == "true" %}col-md-9 col-md-push-3{% else %}container{% endif %}">
 			<h1 id="wb-cont" property="name">{{ page.title }}</h1>
-			{% include sitewidemessages.html %}
 			{% include contentbuttons.html %}
 			{{ content }}
 {% if page.modified == null or page.modified == '' %}
