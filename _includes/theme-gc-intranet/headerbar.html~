@@ -1,4 +1,0 @@
-<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="http://wet-boew.github.io/themes-dist/theme-gc-intranet/assets/sig-blk-{% if page.language == "en" %}en{% elsif page.language =="fr" %}fr{% else %}{{ site.defaultLanguage }}{% endif %}.svg" aria-label="{{ i18n.tmpl-gc-sig }}"></object>
-{% unless page.languagetoggle == "false" %}
-	{% include languagetoggle.html %}
-{% endunless %}

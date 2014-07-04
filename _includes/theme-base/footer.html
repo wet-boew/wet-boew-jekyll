@@ -1,26 +1,26 @@
 <section class="col-sm-3">
-	<h3>{{ i18n.tmpl-about }}</h3>
+	<h3>{{ i18n-base[ page.language ].tmpl-about }}</h3>
 	<ul class="list-unstyled">
-		<li><a href="http://wet-boew.github.io/wet-boew/index-{{ page.language }}.html#{{ i18n.tmpl-about-anchor }}">{{ i18n.tmpl-about-wet }}</a></li>
-		<li><a href="http://www.tbs-sct.gc.ca/ws-nw/index-{% if page.language == 'fr; %}fra{% else %}eng{% endif %}.asp">{{ i18n.tmpl-about-web-standards }}</a></li>
+		<li><a href="http://wet-boew.github.io/wet-boew/index-{{ page.language }}.html#{{ i18n-base[ page.language ].tmpl-about-anchor }}">{{ i18n-base[ page.language ].tmpl-about-wet }}</a></li>
+		<li><a href="http://www.tbs-sct.gc.ca/ws-nw/index-{% if page.language == 'fr; %}fra{% else %}eng{% endif %}.asp">{{ i18n-base[ page.language ].tmpl-about-web-standards }}</a></li>
 	</ul>
 </section>
 <section class="col-sm-3">
-	<h3>{{ i18n.tmpl-contact-us }}</h3>
+	<h3>{{ i18n-base[ page.language ].tmpl-contact-us }}</h3>
 	<ul class="list-unstyled">
-		<li><a href="https://github.com/wet-boew/wet-boew/issues/new">{{ i18n.tmpl-questions-comments }}</a></li>
+		<li><a href="https://github.com/wet-boew/wet-boew/issues/new">{{ i18n-base[ page.language ].tmpl-questions-comments }}</a></li>
 	</ul>
 </section>
 <section class="col-sm-3">
-	<h3>{{ i18n.tmpl-news }}</h3>
+	<h3>{{ i18n-base[ page.language ].tmpl-news }}</h3>
 	<ul class="list-unstyled">
-		<li><a href="https://github.com/wet-boew/wet-boew/pulse">{{ i18n.tmpl-recent-project-activity }}</a></li>
-		<li><a href="https://github.com/wet-boew/wet-boew/graphs">{{ i18n.tmpl-project-stats }}</a></li>
+		<li><a href="https://github.com/wet-boew/wet-boew/pulse">{{ i18n-base[ page.language ].tmpl-recent-project-activity }}</a></li>
+		<li><a href="https://github.com/wet-boew/wet-boew/graphs">{{ i18n-base[ page.language ].tmpl-project-stats }}</a></li>
 	</ul>
 </section>
 <section class="col-sm-3">
-	<h3>{{ i18n.tmpl-stay-connected }}</h3>
+	<h3>{{ i18n-base[ page.language ].tmpl-stay-connected }}</h3>
 	<ul class="list-unstyled">
-		<li><a href="https://twitter.com/{{ i18n.tmpl-wet-twitter }}">Twitter</a></li>
+		<li><a href="https://twitter.com/{{ i18n-base[ page.language ].tmpl-wet-twitter }}">Twitter</a></li>
 	</ul>
 </section>

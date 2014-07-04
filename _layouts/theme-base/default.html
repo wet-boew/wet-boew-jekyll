@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 9]><html class="no-js lt-ie9" lang="{{ page.language }}" dir="{{ i18n.lang-dir }}"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="{{ page.language }}" dir="{{ i18n-base[ page.language ].lang-dir }}"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="{{ page.language }}" dir="{{ i18n.lang-dir }}">
+<html class="no-js" lang="{{ page.language }}" dir="{{ i18n-base[ page.language ].lang-dir }}">
 <!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
@@ -10,23 +10,23 @@
 		<title>{{ page.title }}</title>
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- Meta data -->
-		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ i18n.site.description }}{% else %}{{ page.description }}{% endif %}" />
+		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ i18n-base[ page.language ].'site.title' }}{% else %}{{ page.description }}{% endif %}" />
 		<!-- Meta data-->
 		{% include base/headresources.html %}
 	</head>
 	<body vocab="http://schema.org/" typeof="WebPage">
 		<ul id="wb-tphp">
 			<li class="wb-slc">
-				<a class="wb-sl" href="#wb-cont">{{ i18n.tmpl-skip-cont }}</a>
+				<a class="wb-sl" href="#wb-cont">{{ i18n-base[ page.language ].tmpl-skip-cont }}</a>
 			</li>
 {% unless page.footer == "false" %}
 			<li class="wb-slc visible-md visible-lg">
-				<a class="wb-sl" href="#wb-info">{{ i18n.tmpl-skip-info }}</a>
+				<a class="wb-sl" href="#wb-info">{{ i18n-base[ page.language ].tmpl-skip-info }}</a>
 			</li>
 {% endunless %}
 {% if page.secondarymenu == "true" %}
 			<li class="wb-slc visible-md visible-lg">
-				<a class="wb-sl" href="#wb-sec">{{ i18n.tmpl-skip-sec }}</a>
+				<a class="wb-sl" href="#wb-sec">{{ i18n-base[ page.language ].tmpl-skip-sec }}</a>
 			</li>
 {% endif %}
 		</ul>
@@ -37,13 +37,13 @@
 						<div class="row">
 {% unless page.languagetoggle == "false" %}
 							<section id="wb-lng" class="visible-md visible-lg">
-								<h2>{{ i18n.tmpl-lang-select }}</h2>
+								<h2>{{ i18n-base[ page.language ].tmpl-lang-select }}</h2>
 								{% include base/languagetoggle.html %}
 							</section>
 {% endunless %}
 {% unless page.mobimenu == "false" %}
 							<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
-								<h2>{{ i18n.menu }}</h2>
+								<h2>{{ i18n-base[ page.language ].menu }}</h2>
 								{% include base/mobimenu.html %}
 							</section>
 {% endunless %}
@@ -59,7 +59,7 @@
 						</div>
 {% unless page.sitesearch == "false" %}
 						<section id="wb-srch" class="col-md-4 visible-md visible-lg">
-							<h2>{{ i18n.tmpl-search }}</h2>
+							<h2>{{ i18n-base[ page.language ].tmpl-search }}</h2>
 							{% include base/sitesearch.html %}
 						</section>
 {% endunless %}
@@ -75,7 +75,7 @@
 {% endif %}
 {% unless page.breadcrumb == "false" %}
 			<nav role="navigation" id="wb-bc" property="breadcrumb">
-				<h2>{{ i18n.you-are-here }}</h2>
+				<h2>{{ i18n-base[ page.language ].you-are-here }}</h2>
 				{% include base/breadcrumbs.html %}
 			</nav>
 {% endunless %}
@@ -96,7 +96,7 @@
 		</main>
 {% if page.secondarymenu == "true" %}
 				<nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="col-md-3 col-md-pull-9 visible-md visible-lg">
-					<h2>{{ i18n.tmpl-sec-menu }}</h2>
+					<h2>{{ i18n-base[ page.language ].tmpl-sec-menu }}</h2>
 					{% include base/secondarymenu.html %}
 				</nav>
 			</div>
@@ -107,7 +107,7 @@
 		<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
 			<div class="container">
 				<nav role="navigation" class="row">
-					<h2>{{ i18n.tmpl-site-info" }}</h2>
+					<h2>{{ i18n-base[ page.language ].tmpl-site-info }}</h2>
 					{% include theme-base/footer.html %}
 				</nav>
 			</div>
