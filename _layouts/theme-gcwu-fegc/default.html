@@ -11,7 +11,7 @@
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- Meta data -->
 		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ i18n.site.description }}{% else %}{{ page.description }}{% endif %}" />
-		{% include metadata-theme-gcwu-fegc.html %}
+		{% include theme-gcwu-fegc/metadata.html %}
 		<!-- Meta data-->
 		{% include headresources.html %}
 	</head>
@@ -36,7 +36,7 @@
 				<div id="wb-bar">
 					<div class="container">
 						<div class="row">
-							{% include headerbar-theme-gcwu-fegc.html %}
+							{% include theme-gcwu-fegc/headerbar.html %}
 {% unless page.mobimenu == "false" %}
 							<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
 								<h2>{{ i18n.menu }}</h2>
@@ -50,9 +50,9 @@
 				<div class="container">
 					<div class="row">
 						<div id="wb-sttl" class="col-md-5">
-							{% include brand-theme-gcwu-fegc.html %}
+							{% include theme-gcwu-fegc/brand.html %}
 						</div>
-						{% include wordmark-theme-gcwu-fegc.html %}
+						{% include theme-gcwu-fegc/wordmark.html %}
 {% unless page.sitesearch == "false" %}
 						<section id="wb-srch" class="col-md-4 visible-md visible-lg">
 							<h2>{{ i18n.tmpl-search }}</h2>
@@ -104,9 +104,9 @@
 			<div class="container">
 				<nav role="navigation" class="row">
 					<h2>{{ i18n.tmpl-site-info" }}</h2>
-					{% include notices-theme-gcwu-fegc.html %}
+					{% include theme-gcwu-fegc/notices.html %}
 					<div class="row">
-						{% include footer-theme-gcwu-fegc.html %}
+						{% include theme-gcwu-fegc/footer.html %}
 					</div>
 				</nav>
 			</div>
@@ -114,7 +114,7 @@
 				<div class="container">
 					<nav role="navigation">
 						<h2>{{ i18n.tmpl-gc-foot }}</h2>
-						{% include gcfooter-theme-gcwu-fegc.html %}
+						{% include theme-gcwu-fegc/gcfooter.html %}
 					</nav>
 				</div>
 			</div>

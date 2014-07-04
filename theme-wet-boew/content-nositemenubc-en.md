@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-wet-boew"
+layout: "theme-wet-boew/default"
 permalink: "content-nositemenubc-en.html"
 title: "Content page - No site menu or breadcrumb trail - WET theme"
 language: en

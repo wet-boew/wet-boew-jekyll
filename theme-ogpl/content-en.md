@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-ogpl"
+layout: "theme-ogpl/default"
 permalink: "content-en.html"
 title: "Content page - OGPL theme"
 language: en

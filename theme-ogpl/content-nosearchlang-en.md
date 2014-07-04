@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-ogpl"
+layout: "theme-ogpl/default"
 permalink: "content-nosearchlang-en.html"
 title: "Content page - No search or language selection link - OGPL theme"
 language: en

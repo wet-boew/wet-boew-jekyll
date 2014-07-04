@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-wet-boew"
+layout: "theme-wet-boew/default"
 permalink: "index-en.html"
 title: Jekyll variant
 language: en

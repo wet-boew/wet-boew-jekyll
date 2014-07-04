@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-base"
+layout: "theme-base/default"
 permalink: "content-secmenu"
 title: "Page de contenu - Menu secondaire - Thème de la base"
 language: fr

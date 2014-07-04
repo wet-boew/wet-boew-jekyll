@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-gcwu-fegc"
+layout: "theme-gcwu-fegc/default"
 permalink: "content-nosearchlang-en.html"
 title: "Content page - No search or language selection link - GC Web Usability theme"
 language: en

@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-wet-boew"
+layout: "theme-wet-boew/default"
 permalink: "content-en.html"
 title: "Content page - WET theme"
 language: en

@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-gcweb"
+layout: "gcweb/default"
 permalink: "content-secmenu"
 title: "Page de contenu - Menu secondaire - Thème Canada.ca"
 language: fr

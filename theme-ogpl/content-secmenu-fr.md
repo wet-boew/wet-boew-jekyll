@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-ogpl"
+layout: "theme-ogpl/default"
 permalink: "content-secmenu"
 title: "Page de contenu - Menu secondaire - Thème de la PGO"
 language: fr

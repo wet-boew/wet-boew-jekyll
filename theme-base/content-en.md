@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-base"
+layout: "theme-base/default"
 permalink: "content-en.html"
 title: "Content page - Base theme"
 language: en

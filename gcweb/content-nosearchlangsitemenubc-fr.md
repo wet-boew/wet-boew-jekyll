@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-gcweb"
+layout: "gcweb/default"
 permalink: "content-nosearchlangsitemenubc-fr.html"
 title: "Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane - Thème Canada.ca"
 language: fr

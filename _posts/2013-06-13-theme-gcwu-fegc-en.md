@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-gcwu-fegc"
+layout: "theme-gcwu-fegc/default"
 permalink: "2013-06-13-theme-gcwu-fegc-en.html"
 title: "Example blog post - GC Web Usability theme"
 language: en

@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-gcweb"
+layout: "gcweb/default"
 permalink: "index-fr.html"
 title: Thème Canada.ca
 language: fr

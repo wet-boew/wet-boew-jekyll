@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-gcwu-fegc"
+layout: "theme-gcwu-fegc/default"
 permalink: "content-nositemenubc-fr.html"
 title: "Page de contenu - Sans menu du site ou fil d'Ariane - Thème de la facilité d’emploi Web du gouvernement du Canada"
 language: fr

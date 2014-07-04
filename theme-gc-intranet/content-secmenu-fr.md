@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-gc-intranet"
+layout: "theme-gc-intranet/default"
 permalink: "content-secmenu-fr.html"
 title: "Page de contenu - Menu secondaire - Thème du gouvernement du Canada pour les sites intranet"
 language: fr

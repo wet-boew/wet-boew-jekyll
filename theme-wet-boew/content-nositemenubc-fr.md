@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-wet-boew"
+layout: "theme-wet-boew/default"
 permalink: "content-nositemenubc-fr.html"
 title: "Page de contenu - Sans menu du site ou fil d'Ariane - Thème de la BOEW"
 language: fr

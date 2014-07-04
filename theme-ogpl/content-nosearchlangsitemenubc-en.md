@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-ogpl"
+layout: "theme-ogpl/default"
 permalink: "content-nosearchlangsitemenubc-en.html"
 title: "Content page - No search, language selection link, site menu or breadcrumb trail - OGPL theme"
 language: en

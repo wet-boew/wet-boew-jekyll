@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-gcweb"
+layout: "gcweb/default"
 permalink: "content-nosearchlang-fr.html"
 title: "Page de contenu - Sans recherche ou lien de sélection de la langue - Thème Canada.ca"
 language: fr

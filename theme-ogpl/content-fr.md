@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-ogpl"
+layout: "theme-ogpl/default"
 permalink: "content-fr.html"
 title: "Page de contenu - Thème de la PGO"
 language: fr

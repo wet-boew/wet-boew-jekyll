@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-base"
+layout: "theme-base/default"
 permalink: "2013-06-14-theme-base-fr.html"
 title: "Exemple d'un article de blogue - Thème de base"
 language: fr

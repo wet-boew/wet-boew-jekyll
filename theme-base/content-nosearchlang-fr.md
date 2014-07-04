@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-base"
+layout: "theme-base/default"
 permalink: "content-nosearchlang-fr.html"
 title: "Page de contenu - Sans recherche ou lien de sélection de la langue - Thème de la base"
 language: fr
