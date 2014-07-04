@@ -2,6 +2,6 @@
 {% if pe.language == "en" %}
 	{% include footer-gcweb-en.html %}
 {% else %}
-	{% include footer-gcweb-fr.html %}
+	{% include footer-gcweb-fr %}
 {% endif %}
 </div>

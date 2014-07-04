@@ -11,7 +11,7 @@
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- Meta data -->
 		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ i18n.site.description }}{% else %}{{ page.description }}{% endif %}" />
-		{% include metadata-theme-gcwu-fegc.html %}
+		{% include metadata-theme-gcwu-fegc.html %
 		<!-- Meta data-->
 		{% include headresources.html %}
 	</head>
