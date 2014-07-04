@@ -27,7 +27,7 @@
 {% elsif page.url contains 'theme-ogpl' %}
 <link rel="stylesheet" href="http://wet-boew.github.io/themes-dist/theme-ogpl/css/theme.min.css" />
 {% endif %}
-{% if page.css == null or page.css == '' %}{% else %}{% for css in page.css %}<link rel="stylesheet" href="{{ css }}.min.css"> />{% endfor %}{% endif %}
+{% if page.css == null or page.css == '' %}{% else %}{% for css in page.css %}<link rel="stylesheet" href="{{ css }}.min.css"> />{{% endfor %}}{% endif %}
 <!--[if lt IE 9]>
 {% if page.url contains 'theme-wet-boew' %}
 <link href="http://wet-boew.github.io/wet-boew/assets/favicon.ico" rel="shortcut icon" />

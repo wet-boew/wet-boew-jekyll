@@ -16,7 +16,7 @@
 <ul class="list-inline">
 	<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ i18n.lang-native }}</a></li>
 </ul>
-{% else %}
+{% else }
 <ul class="text-right">
 	{% if page.language == 'en' %}
 	<li>
