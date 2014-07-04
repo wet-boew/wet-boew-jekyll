@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-gcwu-fegc"
+layout: "theme-gcwu-fegc/default"
 permalink: "content-en.html"
 title: "Content page - GC Web Usability theme"
 language: en

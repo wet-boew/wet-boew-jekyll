@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-gcweb"
+layout: "gcweb/default"
 permalink: "content-secmenu-en.html"
 title: "Content page - Secondary menu - GC Web Usability theme"
 language: en

@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-base"
+layout: "theme-base/default"
 permalink: "index-fr.html"
 title: Thème de la base
 language: fr

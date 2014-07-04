@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-ogpl"
+layout: "theme-ogpl/default"
 permalink: "2013-06-11-theme-ogpl-fr.html"
 title: "Exemple d'un article de blogue - Thème de la PGO"
 language: fr

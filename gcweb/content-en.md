@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-gcweb"
+layout: "gcweb/default"
 permalink: "content-en.html"
 title: "Content page - Canada.ca theme"
 language: en

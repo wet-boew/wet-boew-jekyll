@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-gcwu-intranet"
+layout: "theme-gcwu-intranet/default"
 permalink: "2013-06-12-theme-gcwu-intranet-fr.html"
 title: "Exemple d'un article de blogue - Thème de la facilité d’emploi Web GC pour les sites intranet"
 language: fr

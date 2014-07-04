@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-gc-intranet"
+layout: "theme-gc-intranet/default"
 permalink: "content-nositemenubc-fr.html"
 title: Page de contenu - Sans menu du site ou fil d'Ariane - Thème du gouvernement du Canada pour les sites intranet
 language: fr

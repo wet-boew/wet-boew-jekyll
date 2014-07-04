@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-gc-intranet"
+layout: "theme-gc-intranet/default"
 permalink: "content-subsite-en.html"
 title: "Content page - Sub-site - GC Intranet theme"
 language: en

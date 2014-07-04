@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-wet-boew"
+layout: "theme-wet-boew/default"
 permalink: "content-secmenu-fr.html"
 title: "Page de contenu - Menu secondaire - Thème de la BOEW"
 language: fr

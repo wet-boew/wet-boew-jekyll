@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-wet-boew"
+layout: "theme-wet-boew/default"
 permalink: "content-fr.html"
 title: "Page de contenu - Thème de la BOEW"
 language: fr

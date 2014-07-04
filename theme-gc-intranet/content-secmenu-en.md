@@ -1,6 +1,6 @@
 ---
 published: true
-layout: "default-theme-gc-intranet"
+layout: "theme-gc-intranet/default"
 permalink: "content-secmenu-en.html"
 title: "Content page - Secondary menu - GC Intranet theme"
 language: en
