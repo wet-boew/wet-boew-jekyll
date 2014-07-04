@@ -13,13 +13,13 @@
 {% if content_editable == true or content_revision_history == true or content_questions_comments == true %}
 <ul class="list-inline">
 {% if content_editable == true %}
-<li><a class="btn btn-primary" id="edit-page" href="http://prose.io/#{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.path }}">{{ i18n.edit-this-page }}</a></li>
+<li><a class="btn btn-primary" id="edit-page" href="http://prose.io/#{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.path }}">{{ i18n-base[ page.language ].tmpl-edit-this-page }}</a></li>
 {% endif %}
 {% if content_revision_history == true %}
-<li><a class="btn btn-primary" href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/commits/{{ site.branch }}/{{ page.path }}">{{ i18n.revision-history }}</a></li>
+<li><a class="btn btn-primary" href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/commits/{{ site.branch }}/{{ page.path }}">{{ i18n-base[ page.language ].tmpl-revision-history }}</a></li>
 {% endif %}
 {% if content_questions_comments == true %}
-<li><a class="btn btn-primary" href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/issues/new">{{ i18n.questions-or-comments }}</a></li>
+<li><a class="btn btn-primary" href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/issues/new">{{ i18n-base[ page.language ].tmpl-questions-comments }}</a></li>
 {% endif %}
 </ul>
 {% endif %}
