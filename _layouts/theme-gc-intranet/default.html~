@@ -13,7 +13,7 @@
 		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ i18n.site.description }}{% else %}{{ page.description }}{% endif %}" />
 		{% include theme-gc-intranet/metadata.html %}
 		<!-- Meta data-->
-		{% include base/headresources.html %}
+		{% include headresources.html %}
 	</head>
 	<body vocab="http://schema.org/" typeof="WebPage">
 		<ul id="wb-tphp">
@@ -40,7 +40,7 @@
 {% unless page.mobimenu == "false" %}
 							<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
 								<h2>{{ i18n.menu }}</h2>
-								{% include base/mobimenu.html %}
+								{% include mobimenu.html %}
 							</section>
 {% endunless %}
 						</div>
@@ -55,7 +55,7 @@
 {% unless page.sitesearch == "false" %}
 						<section id="wb-srch" class="visible-md visible-lg">
 							<h2>{{ i18n.tmpl-search }}</h2>
-							{% include base/sitesearch.html %}
+							{% include sitesearch.html %}
 						</section>
 {% endunless %}
 					</div>
@@ -78,13 +78,13 @@
 			<span data-trgt="mb-pnl" class="wb-menu hide"></span>
 {% else %}
 			<nav role="navigation" id="wb-sm" data-ajax-fetch="{% if page.altMenu == null or page.altMenu == '' %}http://wet-boew.github.io/wet-boew/ajax/sitemenu{% else %}{{ page.altMenu }}{% endif %}-{{ page.language }}.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
-				{% include base/sitemenu.html %}
+				{% include sitemenu.html %}
 			</nav>
 {% endif %}
 {% unless page.breadcrumb == "false" %}
 			<nav role="navigation" id="wb-bc" property="breadcrumb">
 				<h2>{{ i18n.you-are-here }}</h2>
-				{% include base/breadcrumbs.html %}
+				{% include breadcrumbs.html %}
 			</nav>
 {% endunless %}
 		</header>
@@ -95,17 +95,17 @@
 {% endif %}
 		<main role="main" property="mainContentOfPage" class="{% if page.secondarymenu == "true" %}col-md-9 col-md-push-3{% else %}container{% endif %}">
 			<h1 id="wb-cont" property="name">{{ page.title }}</h1>
-			{% include base/contentbuttons.html %}
+			{% include contentbuttons.html %}
 			{{ content }}
 {% if page.modified == null or page.modified == '' %}
 {% else %}
-			{% include base/datemodified.html %}
+			{% include datemodified.html %}
 {% endif %}
 		</main>
 {% if page.secondarymenu == "true" %}
 				<nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="col-md-3 col-md-pull-9 visible-md visible-lg">
 					<h2>{{ i18n.tmpl-sec-menu }}</h2>
-					{% include base/secondarymenu.html %}
+					{% include secondarymenu.html %}
 				</nav>
 			</div>
 		</div>
@@ -124,6 +124,6 @@
 			</div>
 		</footer>
 {% endunless %}
-		{% include base/footerresources.html %}
+		{% include footerresources.html %}
 	</body>
 </html>

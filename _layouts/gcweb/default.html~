@@ -11,11 +11,10 @@
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- Meta data -->
 		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ i18n.site.description }}{% else %}{{ page.description }}{% endif %}" />
-		{% include theme-gc-intranet/metadata.html %}
 		<!-- Meta data-->
-		{% include base/headresources.html %}
+		{% include headresources.html %}
 	</head>
-	<body vocab="http://schema.org/" typeof="WebPage">
+	<body {% if page.pageclass == null or page.pageclass == '' %}{% else %}class="{{ page.pageclass }}" {% endif %}vocab="http://schema.org/" typeof="WebPage">
 		<ul id="wb-tphp">
 			<li class="wb-slc">
 				<a class="wb-sl" href="#wb-cont">{{ i18n.tmpl-skip-cont }}</a>
@@ -32,98 +31,90 @@
 {% endif %}
 		</ul>
 		<header role="banner">
-			<div id="wb-bnr">
-				<div id="wb-bar">
-					<div class="container">
-						<div class="row">
-							{% include theme-gc-intranet/headerbar.html %}
+			<div id="wb-bnr" class="container">
+{% unless page.languagetoggle == "false" %}
+				<section id="wb-lng" class="visible-md visible-lg text-right">
+					<h2 class="wb-inv">{{ i18n.tmpl-lang-select }}</h2>
+					{% include languagetoggle.html %}
+				</section>
+{% endunless %}
+				<div class="row">
+					{% include gcweb/brand.html %}
 {% unless page.mobimenu == "false" %}
-							<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
-								<h2>{{ i18n.menu }}</h2>
-								{% include base/mobimenu.html %}
-							</section>
+					<section class="wb-mb-links col-xs-3 visible-sm visible-xs" id="wb-glb-mn" >
+						<h2>{{ i18n.menu }}</h2>
+						{% include mobimenu.html %}
+					</section>
 {% endunless %}
-						</div>
-					</div>
-				</div>
-
-				<div class="container">
-					<div class="row">
-						<div id="wb-sttl" class="col-md-12">
-							{% include theme-gc-intranet/brand.html %}
-						</div>
 {% unless page.sitesearch == "false" %}
-						<section id="wb-srch" class="visible-md visible-lg">
-							<h2>{{ i18n.tmpl-search }}</h2>
-							{% include base/sitesearch.html %}
-						</section>
+					<section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
+						<h2 class="wb-inv">{{ i18n.tmpl-search }}</h2>
+						{% include gcweb/sitesearch.html %}
+					</section>
 {% endunless %}
-					</div>
 				</div>
 			</div>
-{% if page.subsite_title == null or page.subsite_title == '' %}
-{% else %}
-			<div id="wb-bnr-ss">
-				<div class="container">
-					<div class="row col-md-12">
-						<div id="wb-ss">
-							{% include theme-gc-intranet/subsite.html %}
-						</div>
-					</div>
-				</div>
-			</div>
-{% endif %}
-
 {% if page.sitemenu == "false" %}
 			<span data-trgt="mb-pnl" class="wb-menu hide"></span>
 {% else %}
-			<nav role="navigation" id="wb-sm" data-ajax-fetch="{% if page.altMenu == null or page.altMenu == '' %}http://wet-boew.github.io/wet-boew/ajax/sitemenu{% else %}{{ page.altMenu }}{% endif %}-{{ page.language }}.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
-				{% include base/sitemenu.html %}
+			<nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl" data-ajax-fetch="{% if page.altMenu == null or page.altMenu == '' %}http://wet-boew.github.io/wet-boew/ajax/sitemenu{% else %}{{ page.altMenu }}{% endif %}-{{ page.language }}.html" typeof="SiteNavigationElement">
+				<h2 class="wb-inv">{{ i18n.tmpl-site-menu }}</h2>
+				{% include gcweb/sitemenu.html %}
 			</nav>
 {% endif %}
 {% unless page.breadcrumb == "false" %}
 			<nav role="navigation" id="wb-bc" property="breadcrumb">
-				<h2>{{ i18n.you-are-here }}</h2>
-				{% include base/breadcrumbs.html %}
+				<h2 class="wb-inv">{{ i18n.you-are-here }}</h2>
+				{% include breadcrumbs.html %}
 			</nav>
 {% endunless %}
 		</header>
-
+		{% include gcweb/promotion.html %}
 {% if page.secondarymenu == "true" %}
 		<div class="container">
 			<div class="row">
 {% endif %}
 		<main role="main" property="mainContentOfPage" class="{% if page.secondarymenu == "true" %}col-md-9 col-md-push-3{% else %}container{% endif %}">
-			<h1 id="wb-cont" property="name">{{ page.title }}</h1>
-			{% include base/contentbuttons.html %}
+	{% if page.pageclass == "home" %}}
+			<h1 property="name" id="wb-cont" class="wb-inv">{{ page.title }}</h1>
+	{% elsif page.pageclass == "secondary" %}
+	{% else %}
+			<h1 property="name" id="wb-cont">{{ page.title }}</h1>
+	{% endif %}
+			{% include contentbuttons.html %}
 			{{ content }}
 {% if page.modified == null or page.modified == '' %}
 {% else %}
-			{% include base/datemodified.html %}
+	{% if page.share == "true" %}
+			{% include gcweb/datemodified-share.html %}
+	{% else %}
+			{% include gcweb/datemodified.html %}
+	{% endif %}
 {% endif %}
 		</main>
+
+		<aside class="features">
+			{% include gcweb/features.html %}
+		</aside>
+
 {% if page.secondarymenu == "true" %}
 				<nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="col-md-3 col-md-pull-9 visible-md visible-lg">
 					<h2>{{ i18n.tmpl-sec-menu }}</h2>
-					{% include base/secondarymenu.html %}
+					{% include secondarymenu.html %}
 				</nav>
 			</div>
 		</div>
 {% endif %}
 
 {% unless page.footer == "false" %}
-		<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
-			<div class="container">
-				<nav role="navigation">
-					<h2>{{ i18n.tmpl-site-info" }}</h2>
-					<div class="row">
-						{% include theme-gc-intranet/footer.html %}
-					</div>
-					{% include theme-gc-intranet/notices.html %}
-				</nav>
-			</div>
+		<footer role="contentinfo" id="wb-info">
+			<nav role="navigation" class="container visible-sm visible-md visible-lg wb-navcurr">
+				<h2 class="wb-inv">{{ i18n.tmpl-site-info" }}</h2>
+				{% include gcweb/footer.html %}
+			</nav>
+			{% include gcweb/footerbrand.html %}
 		</footer>
 {% endunless %}
-		{% include base/footerresources.html %}
+		{% include footerresources.html %}
 	</body>
 </html>
