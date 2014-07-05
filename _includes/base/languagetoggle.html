@@ -7,15 +7,19 @@
 	</div>
 </div>
 {% elsif page.url contains 'theme-gcwu-fegc' %}
-<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
-<ul class="list-inline">
-	<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ site.data.i18n-base[page.language].lang-native }}</a></li>
-</ul>
+<li id="wb-lng">
+	<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
+	<ul class="list-inline">
+		<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ site.data.i18n-base[page.language].lang-native }}</a></li>
+	</ul>
+</li>
 {% elsif page.url contains 'theme-gc-intranet' %}
-<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
-<ul class="list-inline">
-	<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ site.data.i18n-base[page.language].lang-native }}</a></li>
-</ul>
+<li id="wb-lng">
+	<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
+	<ul class="list-inline">
+		<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ site.data.i18n-base[page.language].lang-native }}</a></li>
+	</ul>
+</li>
 {% else %}
 <ul class="text-right">
 	{% if page.language == 'en' %}

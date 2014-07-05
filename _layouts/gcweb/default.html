@@ -57,7 +57,7 @@
 {% if page.sitemenu == "false" %}
 			<span data-trgt="mb-pnl" class="wb-menu hide"></span>
 {% else %}
-			<nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl" data-ajax-fetch="{% if page.altMenu == null or page.altMenu == '' %}http://wet-boew.github.io/wet-boew/ajax/sitemenu{% else %}{{ page.altMenu }}{% endif %}-{{ page.language }}.html" typeof="SiteNavigationElement">
+			<nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl" data-ajax-fetch="{% if page.altMenu == null or page.altMenu == '' %}http://wet-boew.github.io/themes-dist/GCWeb/ajax/sitemenu{% else %}{{ page.altMenu }}{% endif %}-{{ page.language }}.html" typeof="SiteNavigationElement">
 				<h2 class="wb-inv">{{ site.data.i18n-base[page.language].tmpl-site-menu }}</h2>
 				{% include gcweb/sitemenu.html %}
 			</nav>
