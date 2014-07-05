@@ -7,7 +7,7 @@
 	</div>
 </div>
 {% elsif page.url contains 'theme-gcwu-fegc' %}
-<h2>{{{i18n "tmpl-lang-select"}}}</h2>
+<h2>{{ i18n-base[ page.language ].tmpl-lang-select }}</h2>
 <ul class="list-inline">
 	<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ i18n-base[ page.language ].lang-native }}</a></li>
 </ul>
