@@ -2120,7 +2120,7 @@
 		"site.tagline":"Collaborative open source project led by the Government of Canada",
 		"site.description":"Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities"
 	},
-	"en":
+	"en": {
 		"lang-code":"en",
 		"lang-code-iso-639-2":"eng",
 		"lang-dir":"ltr",
@@ -2826,7 +2826,7 @@
 		"site.tagline":"Collaborative open source project led by the Government of Canada",
 		"site.description":"Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities"
 	},
-	"et":
+	"et": {
 		"lang-code":"et",
 		"lang-code-iso-639-2":"est",
 		"lang-dir":"ltr",
@@ -3180,7 +3180,7 @@
 		"site.tagline":"Collaborative open source project led by the Government of Canada",
 		"site.description":"Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities"
 	},
-	"fr":
+	"fr": {
 		"lang-code":"fr",
 		"lang-code-iso-639-2":"fra",
 		"lang-dir":"ltr",
@@ -7072,7 +7072,7 @@
 		"site.tagline":"Collaborative open source project led by the Government of Canada",
 		"site.description":"Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities"
 	},
-	"nl":
+	"nl": {
 		"lang-code":"nl",
 		"lang-code-iso-639-2":"nld",
 		"lang-dir":"ltr",
@@ -8488,7 +8488,7 @@
 		"site.tagline":"Collaborative open source project led by the Government of Canada",
 		"site.description":"Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities"
 	},
-	"ru":
+	"ru": {
 		"lang-code":"ru",
 		"lang-code-iso-639-2":"rus",
 		"lang-dir":"ltr",
