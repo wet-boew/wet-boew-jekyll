@@ -2,31 +2,31 @@
 <div class="row">
 	<div class="col-md-12">
 		<ul class="list-inline margin-bottom-none">
-			<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ site.data.i18n-base[ page.language ].lang-native }}</a></li>
+			<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ site.data.i18n-base[page.language].lang-native }}</a></li>
 		</ul>
 	</div>
 </div>
 {% elsif page.url contains 'theme-gcwu-fegc' %}
-<h2>{{ site.data.i18n-base[ page.language ].tmpl-lang-select }}</h2>
+<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
 <ul class="list-inline">
-	<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ site.data.i18n-base[ page.language ].lang-native }}</a></li>
+	<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ site.data.i18n-base[page.language].lang-native }}</a></li>
 </ul>
 {% elsif page.url contains 'theme-gc-intranet' %}
-<h2>{{ site.data.i18n-base[ page.language ].tmpl-lang-select }}</h2>
+<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
 <ul class="list-inline">
-	<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ site.data.i18n-base[ page.language ].lang-native }}</a></li>
+	<li><a lang="{{ page.language }}" href="{{ page.altLangPrefix }}-{{ page.language }}.html">{{ site.data.i18n-base[page.language].lang-native }}</a></li>
 </ul>
 {% else %}
 <ul class="text-right">
 	{% if page.language == 'en' %}
 	<li>
-		<a lang="fr" hreflang="fr" href="{{ page.altLangPrefix }}-fr.html">{{ site.data.i18n-base[ "fr" ].lang-native }}</a>
+		<a lang="fr" hreflang="fr" href="{{ page.altLangPrefix }}-fr.html">{{ site.data.i18n-base["fr"].lang-native }}</a>
 	</li>
-	<li class="curr">{{ site.data.i18n-base[ page.language ].lang-native }}{{ site.data.i18n-base[ page.language ].space }}<span>{{ site.data.i18n-base[ page.language ].current }}</span></li>
+	<li class="curr">{{ site.data.i18n-base[page.language].lang-native }}{{ site.data.i18n-base[page.language].space }}<span>{{ site.data.i18n-base[page.language].current }}</span></li>
 	{% elsif page.language == 'fr' %}
-	<li class="curr">{{ site.data.i18n-base[ page.language ].lang-native }}{{ site.data.i18n-base[ page.language ].space }}<span>{{ site.data.i18n-base[ page.language ].current }}</span></li>
+	<li class="curr">{{ site.data.i18n-base[page.language].lang-native }}{{ site.data.i18n-base[page.language].space }}<span>{{ site.data.i18n-base[page.language].current }}</span></li>
 	<li>
-		<a lang="en" hreflang="en" href="{{ page.altLangPrefix }}-en.html">{{ site.data.i18n-base[ "en" ].lang-native }}</a>
+		<a lang="en" hreflang="en" href="{{ page.altLangPrefix }}-en.html">{{ site.data.i18n-base["en"].lang-native }}</a>
 	</li>
 	{% endif %}
 </ul>
