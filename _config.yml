@@ -1,9 +1,5 @@
 # standard jekyll configuration
 
-title_en: "Jekyll variant - Working examples - Web Experience Toolkit&#160;(WET)"
-title_fr: "Variant pour Jekyll - Exemples pratiques - Boîte à outils de l'expérience Web&#160;(BOEW)"
-description_en: "Jekyll variant for the Web Experience Toolkit (WET)."
-description_fr: "Variant pour Jekyll pour la Boîte à outils de l'expérience Web (BOEW)."
 content_editable: true
 content_revision_history: true
 content_questions_comments: true
