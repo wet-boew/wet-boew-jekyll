@@ -10,7 +10,7 @@
 		<title>{{ page.title }}</title>
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- Meta data -->
-		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ site.data.i18n-ogpl[page.language].'site.description' }}{% else %}{{ page.description }}{% endif %}" />
+		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ site.data.i18n-ogpl[page.language].site-description }}{% else %}{{ page.description }}{% endif %}" />
 		<!-- Meta data-->
 		{% include base/headresources.html %}
 	</head>
