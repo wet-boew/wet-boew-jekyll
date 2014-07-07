@@ -9,7 +9,8 @@ dateModified: "2014-05-27"
 description: "Variant pour Jekyll - Boîte à outils de l'expérience Web (BOEW)"
 ---
 
-## Pages Web normales ##
+## Pages Web normales
+
 * [Thème du Canada.ca](gcweb/index-fr.html)
 * [Thème de la facilité d'emploi Web GC](theme-gcwu-fegc/index-fr.html)
 * [Thème du gouvernement du Canada pour les sites intranet](theme-gc-intranet/index-fr.html)
@@ -17,7 +18,8 @@ description: "Variant pour Jekyll - Boîte à outils de l'expérience Web (BOEW)
 * [Thème de base](theme-base/index-fr.html)
 * [Thème de la PGO](theme-ogpl/index-fr.html)
 
-## Articles de blogue ##
+## Articles de blogue
+
 <ul>
 {% for post in site.posts %}
 {% if post.url contains '-fr.html' %}
