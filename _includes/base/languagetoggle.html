@@ -28,7 +28,7 @@
 	</ul>
 </li>
 {% elsif page.url contains 'theme-gc-intranet' %}
-<li id="wb-lng">
+<section id="wb-lng">
 	<h2>{{ site.data.i18n-base[page.language].tmpl-lang-select }}</h2>
 	<ul class="list-inline">
 	{% if page.language == "fr" %}
@@ -40,7 +40,7 @@
 		<li><a lang="en" href="{{ page.altLangPrefix }}-en.html">{{ site.data.i18n-base["en"].lang-native }}</a></li>
 	{% endif %}
 	</ul>
-</li>
+</section>
 {% else %}
 <ul class="text-right">
 	{% if page.language == "fr" %}
