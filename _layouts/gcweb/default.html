@@ -58,7 +58,7 @@
 			<span data-trgt="mb-pnl" class="wb-menu hide"></span>
 {% else %}
 			<nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl" data-ajax-fetch="{% if page.altMenu == null or page.altMenu == '' %}http://wet-boew.github.io/themes-dist/GCWeb/ajax/sitemenu{% else %}{{ page.altMenu }}{% endif %}-{{ page.language }}.html" typeof="SiteNavigationElement">
-				<h2 class="wb-inv">{{ site.data.i18n-base[page.language].tmpl-site-menu }}</h2>
+				<h2 class="wb-inv">{{ site.data.i18n-base[page.language].tmpl-topics-menu }}</h2>
 				{% include gcweb/sitemenu.html %}
 			</nav>
 {% endif %}
@@ -109,7 +109,7 @@
 {% unless page.footer == "false" %}
 		<footer role="contentinfo" id="wb-info">
 			<nav role="navigation" class="container visible-sm visible-md visible-lg wb-navcurr">
-				<h2 class="wb-inv">{{ site.data.i18n-base[page.language].tmpl-site-about-site }}</h2>
+				<h2 class="wb-inv">{{ site.data.i18n-base[page.language].tmpl-about-site }}</h2>
 				{% include gcweb/footer.html %}
 			</nav>
 			{% include gcweb/footerbrand.html %}
