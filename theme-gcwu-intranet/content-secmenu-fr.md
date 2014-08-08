@@ -1,7 +1,7 @@
 ---
 published: true
-layout: "theme-gc-intranet/default"
-permalink: "theme-gc-intranet/content-secmenu-fr.html"
+layout: "theme-gcwu-intranet/default"
+permalink: "theme-gcwu-intranet/content-secmenu-fr.html"
 title: "Page de contenu - Menu secondaire"
 language: fr
 altLangPrefix: "content-secmenu"

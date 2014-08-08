@@ -1,11 +1,13 @@
 ---
 published: true
-layout: "theme-gc-intranet/default"
-permalink: "theme-gc-intranet/content-nositemenubc-en.html"
-title: "Content page - No site menu or breadcrumb trail"
+layout: "theme-gcwu-intranet/default"
+permalink: "theme-gcwu-intranet/content-nosearchlangsitemenubc-en.html"
+title: "Content page - No search, language selection link, site menu or breadcrumb trail"
 language: en
-altLangPrefix: "content-nositemenubc"
+altLangPrefix: "content-nosearchlangsitemenubc"
 dateModified: "2014-05-27"
+sitesearch: false
+languagetoggle: false
 sitemenu: false
 breadcrumb: false
 description: English description / Description en anglais

@@ -1,14 +1,12 @@
 ---
 published: true
-layout: "theme-gc-intranet/default"
-permalink: "theme-gc-intranet/content-subsite-en.html"
-title: "Content page - Sub-site"
+layout: "theme-gcwu-intranet/default"
+permalink: "theme-gcwu-intranet/content-secmenu-en.html"
+title: "Content page - Secondary menu"
 language: en
-altLangPrefix: "content-subsite"
+altLangPrefix: "content-secmenu"
 dateModified: "2014-05-27"
-subsite: true
-subsiteUrl: "#"
-subsiteTitle: "Sub-site name"
+secondarymenu: true
 description: English description / Description en anglais
 creator: English name of the content author / Nom en anglais de l'auteur du contenu
 dateIssued: "2014-05-27"

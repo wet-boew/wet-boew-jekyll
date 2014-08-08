@@ -1,11 +1,14 @@
 ---
 published: true
-layout: "theme-gc-intranet/default"
-permalink: "theme-gc-intranet/content-en.html"
-title: "Content page"
+layout: "theme-gcwu-intranet/default"
+permalink: "theme-gcwu-intranet/content-subsite-en.html"
+title: "Content page - Sub-site"
 language: en
-altLangPrefix: "content"
+altLangPrefix: "content-subsite"
 dateModified: "2014-05-27"
+subsite: true
+subsiteUrl: "#"
+subsiteTitle: "Sub-site name"
 description: English description / Description en anglais
 creator: English name of the content author / Nom en anglais de l'auteur du contenu
 dateIssued: "2014-05-27"
