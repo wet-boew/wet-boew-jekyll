@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gcwu-fegc/default"
-permalink: "content-secmenu"
+permalink: "theme-gcwu-fegc/content-secmenu-fr.html"
 title: "Page de contenu - Menu secondaire - Thème de la facilité d’emploi Web du gouvernement du Canada"
 language: fr
 altLangPrefix: "content-secmenu"

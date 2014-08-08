@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gc-intranet/default"
-permalink: "index-en.html"
+permalink: "theme-gc-intranet/index-en.html"
 title: GC Intranet theme
 language: en
 altLangPrefix: index

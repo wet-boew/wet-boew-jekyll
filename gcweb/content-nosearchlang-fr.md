@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "gcweb/default"
-permalink: "content-nosearchlang-fr.html"
+permalink: "gcweb/content-nosearchlang-fr.html"
 title: "Page de contenu - Sans recherche ou lien de sélection de la langue - Thème Canada.ca"
 language: fr
 altLangPrefix: "content-nosearchlang"

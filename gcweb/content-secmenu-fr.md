@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "gcweb/default"
-permalink: "content-secmenu"
+permalink: "gcweb/content-secmenu-fr.html"
 title: "Page de contenu - Menu secondaire - Thème Canada.ca"
 language: fr
 altLangPrefix: "content-secmenu"

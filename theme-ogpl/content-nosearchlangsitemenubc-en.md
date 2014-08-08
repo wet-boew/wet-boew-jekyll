@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "content-nosearchlangsitemenubc-en.html"
+permalink: "theme-ogpl/content-nosearchlangsitemenubc-en.html"
 title: "Content page - No search, language selection link, site menu or breadcrumb trail - OGPL theme"
 language: en
 altLangPrefix: "content-nosearchlangsitemenubc"

@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-wet-boew/default"
-permalink: "content-nosearchlang-en.html"
+permalink: "theme-wet-boew/content-nosearchlang-en.html"
 title: "Content page - No search or language selection link - WET theme"
 language: en
 altLangPrefix: "content-nosearchlang"

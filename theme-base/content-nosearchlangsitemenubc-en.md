@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-base/default"
-permalink: "content-nosearchlangsitemenubc-en.html"
+permalink: "theme-base/content-nosearchlangsitemenubc-en.html"
 title: "Content page - No search, language selection link, site menu or breadcrumb trail - Base theme"
 language: en
 altLangPrefix: "content-nosearchlangsitemenubc"

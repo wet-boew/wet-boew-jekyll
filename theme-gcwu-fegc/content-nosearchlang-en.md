@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gcwu-fegc/default"
-permalink: "content-nosearchlang-en.html"
+permalink: "theme-gcwu-fegc/content-nosearchlang-en.html"
 title: "Content page - No search or language selection link - GC Web Usability theme"
 language: en
 altLangPrefix: "content-nosearchlang"

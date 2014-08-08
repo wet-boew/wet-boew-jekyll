@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gcwu-fegc/default"
-permalink: "content-nosearchlangsitemenubc-fr.html"
+permalink: "theme-gcwu-fegc/content-nosearchlangsitemenubc-fr.html"
 title: "Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane - Thème de la facilité d’emploi Web du gouvernement du Canada"
 language: fr
 altLangPrefix: "content-nosearchlangsitemenubc"

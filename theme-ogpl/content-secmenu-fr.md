@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "content-secmenu"
+permalink: "theme-ogpl/content-secmenu-fr.html"
 title: "Page de contenu - Menu secondaire - Thème de la PGO"
 language: fr
 altLangPrefix: "content-secmenu"

@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "content-nositemenubc-fr.html"
+permalink: "theme-ogpl/content-nositemenubc-fr.html"
 title: "Page de contenu - Sans menu du site ou fil d'Ariane - Thème de la PGO"
 language: fr
 altLangPrefix: "content-nositemenubc"

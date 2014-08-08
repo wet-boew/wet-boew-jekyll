@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-base/default"
-permalink: "content-nosearchlang-en.html"
+permalink: "theme-base/content-nosearchlang-en.html"
 title: "Content page - No search or language selection link - Base theme"
 language: en
 altLangPrefix: "content-nosearchlang"

@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-wet-boew/default"
-permalink: "content-nosearchlangsitemenubc-en.html"
+permalink: "theme-wet-boew/content-nosearchlangsitemenubc-en.html"
 title: "Content page - No search, language selection link, site menu or breadcrumb trail - WET theme"
 language: en
 altLangPrefix: "content-nosearchlangsitemenubc"

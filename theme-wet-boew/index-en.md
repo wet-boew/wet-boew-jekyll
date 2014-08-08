@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-wet-boew/default"
-permalink: "index-en.html"
+permalink: "theme-wet-boew/index-en.html"
 title: WET theme
 language: en
 altLangPrefix: index

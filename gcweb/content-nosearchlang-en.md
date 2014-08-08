@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "gcweb/default"
-permalink: "content-nosearchlang-en.html"
+permalink: "gcweb/content-nosearchlang-en.html"
 title: "Content page - No search or language selection link - GC Web Usability theme"
 language: en
 altLangPrefix: "content-nosearchlang"

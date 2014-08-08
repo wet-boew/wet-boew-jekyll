@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-wet-boew/default"
-permalink: "content-secmenu-en.html"
+permalink: "theme-wet-boew/content-secmenu-en.html"
 title: "Content page - Secondary menu - WET theme"
 language: en
 altLangPrefix: "content-secmenu"

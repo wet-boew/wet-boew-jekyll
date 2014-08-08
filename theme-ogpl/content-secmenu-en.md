@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "content-secmenu-en.html"
+permalink: "theme-ogpl/content-secmenu-en.html"
 title: "Content page - Secondary menu - OGPL theme"
 language: en
 altLangPrefix: "content-secmenu"
