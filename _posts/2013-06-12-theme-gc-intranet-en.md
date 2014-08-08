@@ -1,10 +1,10 @@
 ---
 published: true
-layout: "theme-gcwu-intranet/default"
-permalink: "2013-06-12-theme-gcwu-intranet-en.html"
+layout: "theme-gc-intranet/default"
+permalink: "2013-06-12-theme-gc-intranet-en.html"
 title: "Example blog post - GC Web Usability Intranet theme"
 language: en
-altLangPrefix: "2013-06-12-theme-gcwu-intranet"
+altLangPrefix: "2013-06-12-theme-gc-intranet"
 dateModified: :year:month:day
 description: English description / Description en anglais
 creator: English name of the content author / Nom en anglais de l'auteur du contenu

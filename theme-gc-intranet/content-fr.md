@@ -1,7 +1,7 @@
 ---
 published: true
-layout: "theme-gcwu-intranet/default"
-permalink: "theme-gcwu-intranet/content-fr.html"
+layout: "theme-gc-intranet/default"
+permalink: "theme-gc-intranet/content-fr.html"
 title: "Page de contenu"
 language: fr
 altLangPrefix: "content"
