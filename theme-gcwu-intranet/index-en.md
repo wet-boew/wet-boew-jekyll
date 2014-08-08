@@ -1,7 +1,7 @@
 ---
 published: true
-layout: "theme-gc-intranet/default"
-permalink: "theme-gc-intranet/index-en.html"
+layout: "theme-gcwu-intranet/default"
+permalink: "theme-gcwu-intranet/index-en.html"
 title: "GC Intranet theme"
 language: en
 altLangPrefix: index

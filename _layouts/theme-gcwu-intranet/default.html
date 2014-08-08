@@ -11,7 +11,7 @@
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- Meta data -->
 		<meta name="description" content="{% if page.description == null or page.description == '' %}{{ site.data.i18n-base[page.language].site-title }}{% else %}{{ page.description }}{% endif %}" />
-		{% include theme-gc-intranet/metadata.html %}
+		{% include theme-gcwu-intranet/metadata.html %}
 		<!-- Meta data-->
 		{% include base/headresources.html %}
 	</head>
@@ -36,7 +36,7 @@
 				<div id="wb-bar">
 					<div class="container">
 						<div class="row">
-							{% include theme-gc-intranet/headerbar.html %}
+							{% include theme-gcwu-intranet/headerbar.html %}
 {% unless page.mobimenu == "false" %}
 							<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
 								<h2>{{ site.data.i18n-base[page.language].srch-menus }}</h2>
@@ -50,7 +50,7 @@
 				<div class="container">
 					<div class="row">
 						<div id="wb-sttl" class="col-md-12">
-							{% include theme-gc-intranet/brand.html %}
+							{% include theme-gcwu-intranet/brand.html %}
 						</div>
 {% unless page.sitesearch == "false" %}
 						<section id="wb-srch" class="visible-md visible-lg">
@@ -67,7 +67,7 @@
 				<div class="container">
 					<div class="row col-md-12">
 						<div id="wb-ss">
-							{% include theme-gc-intranet/subsite.html %}
+							{% include theme-gcwu-intranet/subsite.html %}
 						</div>
 					</div>
 				</div>
@@ -117,9 +117,9 @@
 				<nav role="navigation">
 					<h2>{{ site.data.i18n-base[page.language].tmpl-about-site }}</h2>
 					<div class="row">
-						{% include theme-gc-intranet/footer.html %}
+						{% include theme-gcwu-intranet/footer.html %}
 					</div>
-					{% include theme-gc-intranet/notices.html %}
+					{% include theme-gcwu-intranet/notices.html %}
 				</nav>
 			</div>
 		</footer>

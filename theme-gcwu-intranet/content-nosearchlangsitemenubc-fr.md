@@ -1,7 +1,7 @@
 ---
 published: true
-layout: "theme-gc-intranet/default"
-permalink: "theme-gc-intranet/content-nosearchlangsitemenubc-fr.html"
+layout: "theme-gcwu-intranet/default"
+permalink: "theme-gcwu-intranet/content-nosearchlangsitemenubc-fr.html"
 title: "Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane"
 language: fr
 altLangPrefix: "content-nosearchlangsitemenubc"
