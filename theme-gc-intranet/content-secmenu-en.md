@@ -1,11 +1,12 @@
 ---
 published: true
-layout: "theme-gcwu-intranet/default"
-permalink: "theme-gcwu-intranet/content-en.html"
-title: "Content page"
+layout: "theme-gc-intranet/default"
+permalink: "theme-gc-intranet/content-secmenu-en.html"
+title: "Content page - Secondary menu"
 language: en
-altLangPrefix: "content"
+altLangPrefix: "content-secmenu"
 dateModified: "2014-05-27"
+secondarymenu: true
 description: English description / Description en anglais
 creator: English name of the content author / Nom en anglais de l'auteur du contenu
 dateIssued: "2014-05-27"

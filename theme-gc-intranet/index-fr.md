@@ -1,7 +1,7 @@
 ---
 published: true
-layout: "theme-gcwu-intranet/default"
-permalink: "theme-gcwu-intranet/index-fr.html"
+layout: "theme-gc-intranet/default"
+permalink: "theme-gc-intranet/index-fr.html"
 title: "Thème du gouvernement du Canada pour les sites intranet"
 language: fr
 altLangPrefix: index
@@ -20,4 +20,4 @@ description: "Thème du gouvernement du Canada pour les sites intranet - Variant
 
 ## Articles de blogue
 
-* [Article de blogue](../2013-06-12-theme-gcwu-intranet-fr.html)
+* [Article de blogue](../2013-06-12-theme-gc-intranet-fr.html)

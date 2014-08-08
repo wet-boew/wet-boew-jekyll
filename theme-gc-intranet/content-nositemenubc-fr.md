@@ -1,13 +1,13 @@
 ---
 published: true
-layout: "theme-gcwu-intranet/default"
-permalink: "theme-gcwu-intranet/content-nosearchlang-fr.html"
-title: "Page de contenu - Sans recherche ou lien de sélection de la langue"
+layout: "theme-gc-intranet/default"
+permalink: "theme-gc-intranet/content-nositemenubc-fr.html"
+title: "Page de contenu - Sans menu du site ou fil d'Ariane"
 language: fr
-altLangPrefix: "content-nosearchlang"
+altLangPrefix: "content-nositemenubc"
 dateModified: "2014-05-27"
-sitesearch: false
-languagetoggle: false
+sitemenu: false
+breadcrumb: false
 description: French description / Description en français
 creator: French name of the content author / Nom en français de l'auteur du contenu
 dateIssued: "2014-05-27"
