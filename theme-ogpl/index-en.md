@@ -2,7 +2,7 @@
 published: true
 layout: "theme-ogpl/default"
 permalink: "theme-ogpl/index-en.html"
-title: OGPL theme
+title: "OGPL theme"
 language: en
 altLangPrefix: index
 dateModified: "2014-05-27"

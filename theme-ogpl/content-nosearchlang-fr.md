@@ -2,7 +2,7 @@
 published: true
 layout: "theme-ogpl/default"
 permalink: "theme-ogpl/content-nosearchlang-fr.html"
-title: "Page de contenu - Sans recherche ou lien de sélection de la langue - Thème de la PGO"
+title: "Page de contenu - Sans recherche ou lien de sélection de la langue"
 language: fr
 altLangPrefix: "content-nosearchlang"
 dateModified: "2014-05-27"

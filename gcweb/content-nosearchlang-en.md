@@ -2,7 +2,7 @@
 published: true
 layout: "gcweb/default"
 permalink: "gcweb/content-nosearchlang-en.html"
-title: "Content page - No search or language selection link - GC Web Usability theme"
+title: "Content page - No search or language selection link"
 language: en
 altLangPrefix: "content-nosearchlang"
 dateModified: "2014-05-27"

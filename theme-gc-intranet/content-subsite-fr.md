@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gc-intranet/default"
 permalink: "theme-gc-intranet/content-subsite-fr.html"
-title: "Page de contenu - Sous-site - Thème du gouvernement du Canada pour les sites intranet"
+title: "Page de contenu - Sous-site"
 language: fr
 altLangPrefix: "content-subsite"
 dateModified: "2014-05-27"

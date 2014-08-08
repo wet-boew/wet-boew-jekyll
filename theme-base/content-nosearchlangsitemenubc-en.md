@@ -2,7 +2,7 @@
 published: true
 layout: "theme-base/default"
 permalink: "theme-base/content-nosearchlangsitemenubc-en.html"
-title: "Content page - No search, language selection link, site menu or breadcrumb trail - Base theme"
+title: "Content page - No search, language selection link, site menu or breadcrumb trail"
 language: en
 altLangPrefix: "content-nosearchlangsitemenubc"
 dateModified: "2014-05-27"

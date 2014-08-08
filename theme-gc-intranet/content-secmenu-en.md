@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gc-intranet/default"
 permalink: "theme-gc-intranet/content-secmenu-en.html"
-title: "Content page - Secondary menu - GC Intranet theme"
+title: "Content page - Secondary menu"
 language: en
 altLangPrefix: "content-secmenu"
 dateModified: "2014-05-27"

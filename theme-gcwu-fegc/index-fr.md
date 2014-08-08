@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gcwu-fegc/default"
 permalink: "theme-gcwu-fegc/index-fr.html"
-title: Thème de la facilité d’emploi Web du gouvernement du Canada
+title: "Thème de la facilité d’emploi Web du gouvernement du Canada"
 language: fr
 altLangPrefix: index
 dateModified: "2014-05-27"

@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gc-intranet/default"
 permalink: "theme-gc-intranet/content-nosearchlang-en.html"
-title: "Content page - No search or language selection link - GC Intranet theme"
+title: "Content page - No search or language selection link"
 language: en
 altLangPrefix: "content-nosearchlang"
 dateModified: "2014-05-27"

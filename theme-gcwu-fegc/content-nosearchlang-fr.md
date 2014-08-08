@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gcwu-fegc/default"
 permalink: "theme-gcwu-fegc/content-nosearchlang-fr.html"
-title: "Page de contenu - Sans recherche ou lien de sélection de la langue - Thème de la facilité d’emploi Web du gouvernement du Canada"
+title: "Page de contenu - Sans recherche ou lien de sélection de la langue"
 language: fr
 altLangPrefix: "content-nosearchlang"
 dateModified: "2014-05-27"

@@ -2,7 +2,7 @@
 published: true
 layout: "theme-base/default"
 permalink: "theme-base/index-en.html"
-title: Base theme
+title: "Base theme"
 language: en
 altLangPrefix: index
 dateModified: "2014-05-27"

@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gcwu-fegc/default"
 permalink: "theme-gcwu-fegc/content-secmenu-fr.html"
-title: "Page de contenu - Menu secondaire - Thème de la facilité d’emploi Web du gouvernement du Canada"
+title: "Page de contenu - Menu secondaire"
 language: fr
 altLangPrefix: "content-secmenu"
 dateModified: "2014-05-27"

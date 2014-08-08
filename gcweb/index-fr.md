@@ -2,7 +2,7 @@
 published: true
 layout: "gcweb/default"
 permalink: "gcweb/index-fr.html"
-title: Thème Canada.ca
+title: "Thème Canada.ca"
 language: fr
 altLangPrefix: index
 dateModified: "2014-05-27"

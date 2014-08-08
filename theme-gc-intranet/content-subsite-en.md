@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gc-intranet/default"
 permalink: "theme-gc-intranet/content-subsite-en.html"
-title: "Content page - Sub-site - GC Intranet theme"
+title: "Content page - Sub-site"
 language: en
 altLangPrefix: "content-subsite"
 dateModified: "2014-05-27"

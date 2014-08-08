@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gc-intranet/default"
 permalink: "theme-gc-intranet/content-nosearchlangsitemenubc-fr.html"
-title: Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane - Thème du gouvernement du Canada pour les sites intranet
+title: "Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane"
 language: fr
 altLangPrefix: "content-nosearchlangsitemenubc"
 dateModified: "2014-05-27"

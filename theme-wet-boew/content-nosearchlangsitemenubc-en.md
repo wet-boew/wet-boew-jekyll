@@ -2,7 +2,7 @@
 published: true
 layout: "theme-wet-boew/default"
 permalink: "theme-wet-boew/content-nosearchlangsitemenubc-en.html"
-title: "Content page - No search, language selection link, site menu or breadcrumb trail - WET theme"
+title: "Content page - No search, language selection link, site menu or breadcrumb trail"
 language: en
 altLangPrefix: "content-nosearchlangsitemenubc"
 dateModified: "2014-05-27"

@@ -2,7 +2,7 @@
 published: true
 layout: "theme-wet-boew/default"
 permalink: "theme-wet-boew/index-fr.html"
-title: Thème de la BOEW
+title: "Thème de la BOEW"
 language: fr
 altLangPrefix: index
 dateModified: "2014-05-27"
