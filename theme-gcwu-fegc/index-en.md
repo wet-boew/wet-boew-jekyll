@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gcwu-fegc/default"
 permalink: "theme-gcwu-fegc/index-en.html"
-title: GC Web Usability theme
+title: "GC Web Usability theme"
 language: en
 altLangPrefix: index
 dateModified: "2014-05-27"

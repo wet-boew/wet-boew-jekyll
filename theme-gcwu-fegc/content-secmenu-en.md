@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gcwu-fegc/default"
 permalink: "theme-gcwu-fegc/content-secmenu-en.html"
-title: "Content page - Secondary menu - GC Web Usability theme"
+title: "Content page - Secondary menu"
 language: en
 altLangPrefix: "content-secmenu"
 dateModified: "2014-05-27"

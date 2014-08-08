@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gc-intranet/default"
 permalink: "theme-gc-intranet/index-en.html"
-title: GC Intranet theme
+title: "GC Intranet theme"
 language: en
 altLangPrefix: index
 dateModified: "2014-05-27"

@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gc-intranet/default"
 permalink: "theme-gc-intranet/content-fr.html"
-title: "Page de contenu - Thème du gouvernement du Canada pour les sites intranet"
+title: "Page de contenu"
 language: fr
 altLangPrefix: "content"
 dateModified: "2014-05-27"

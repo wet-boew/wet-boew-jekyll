@@ -2,7 +2,7 @@
 published: true
 layout: "theme-wet-boew/default"
 permalink: "theme-wet-boew/content-nosearchlang-en.html"
-title: "Content page - No search or language selection link - WET theme"
+title: "Content page - No search or language selection link"
 language: en
 altLangPrefix: "content-nosearchlang"
 dateModified: "2014-05-27"

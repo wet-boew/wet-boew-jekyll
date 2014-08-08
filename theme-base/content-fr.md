@@ -2,7 +2,7 @@
 published: true
 layout: "theme-base/default"
 permalink: "theme-base/content-fr.html"
-title: "Page de contenu - Thème de la base"
+title: "Page de contenu"
 language: fr
 altLangPrefix: "content"
 dateModified: "2014-05-27"

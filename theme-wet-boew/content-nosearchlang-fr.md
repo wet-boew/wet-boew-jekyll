@@ -2,7 +2,7 @@
 published: true
 layout: "theme-wet-boew/default"
 permalink: "theme-wet-boew/content-nosearchlang-en.html"
-title: "Page de contenu - Sans recherche ou lien de sélection de la langue - Thème de la BOEW"
+title: "Page de contenu - Sans recherche ou lien de sélection de la langue"
 language: fr
 altLangPrefix: "content-nosearchlang"
 dateModified: "2014-05-27"

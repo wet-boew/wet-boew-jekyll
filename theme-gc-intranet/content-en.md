@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gc-intranet/default"
 permalink: "theme-gc-intranet/content-en.html"
-title: "Content page - GC Intranet theme"
+title: "Content page"
 language: en
 altLangPrefix: "content"
 dateModified: "2014-05-27"

@@ -2,7 +2,7 @@
 published: true
 layout: "theme-ogpl/default"
 permalink: "theme-ogpl/index-fr.html"
-title: Thème de la PGO
+title: "Thème de la PGO"
 language: fr
 altLangPrefix: index
 dateModified: "2014-05-27"

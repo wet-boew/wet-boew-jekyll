@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gc-intranet/default"
 permalink: "theme-gc-intranet/content-nositemenubc-en.html"
-title: "Content page - No site menu or breadcrumb trail - GC Intranet theme"
+title: "Content page - No site menu or breadcrumb trail"
 language: en
 altLangPrefix: "content-nositemenubc"
 dateModified: "2014-05-27"

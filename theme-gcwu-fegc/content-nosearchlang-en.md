@@ -2,7 +2,7 @@
 published: true
 layout: "theme-gcwu-fegc/default"
 permalink: "theme-gcwu-fegc/content-nosearchlang-en.html"
-title: "Content page - No search or language selection link - GC Web Usability theme"
+title: "Content page - No search or language selection link"
 language: en
 altLangPrefix: "content-nosearchlang"
 dateModified: "2014-05-27"

@@ -2,7 +2,7 @@
 published: true
 layout: "theme-wet-boew/default"
 permalink: "theme-wet-boew/index-en.html"
-title: WET theme
+title: "WET theme"
 language: en
 altLangPrefix: index
 dateModified: "2014-05-27"
