@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "content-fr.html"
+permalink: "theme-ogpl/content-fr.html"
 title: "Page de contenu - Thème de la PGO"
 language: fr
 altLangPrefix: "content"

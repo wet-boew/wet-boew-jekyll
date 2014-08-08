@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gc-intranet/default"
-permalink: "content-subsite-fr.html"
+permalink: "theme-gc-intranet/content-subsite-fr.html"
 title: "Page de contenu - Sous-site - Thème du gouvernement du Canada pour les sites intranet"
 language: fr
 altLangPrefix: "content-subsite"

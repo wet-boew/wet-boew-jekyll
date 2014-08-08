@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gcwu-fegc/default"
-permalink: "index-en.html"
+permalink: "theme-gcwu-fegc/index-en.html"
 title: GC Web Usability theme
 language: en
 altLangPrefix: index

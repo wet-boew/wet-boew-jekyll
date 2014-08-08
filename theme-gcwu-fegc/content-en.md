@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gcwu-fegc/default"
-permalink: "content-en.html"
+permalink: "theme-gcwu-fegc/content-en.html"
 title: "Content page - GC Web Usability theme"
 language: en
 altLangPrefix: "content"

@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-base/default"
-permalink: "content-nosearchlangsitemenubc-fr.html"
+permalink: "theme-base/content-nosearchlangsitemenubc-fr.html"
 title: "Page de contenu - Sans recherche, lien de sélection de la langue, menu du site ou fil d'Ariane - Thème de la base"
 language: fr
 altLangPrefix: "content-nosearchlangsitemenubc"

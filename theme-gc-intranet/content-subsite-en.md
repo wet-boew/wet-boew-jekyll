@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gc-intranet/default"
-permalink: "content-subsite-en.html"
+permalink: "theme-gc-intranet/content-subsite-en.html"
 title: "Content page - Sub-site - GC Intranet theme"
 language: en
 altLangPrefix: "content-subsite"

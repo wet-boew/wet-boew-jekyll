@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gcwu-fegc/default"
-permalink: "content-secmenu-en.html"
+permalink: "theme-gcwu-fegc/content-secmenu-en.html"
 title: "Content page - Secondary menu - GC Web Usability theme"
 language: en
 altLangPrefix: "content-secmenu"

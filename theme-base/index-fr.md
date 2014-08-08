@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-base/default"
-permalink: "index-fr.html"
+permalink: "theme-base/index-fr.html"
 title: Thème de la base
 language: fr
 altLangPrefix: index

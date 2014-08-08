@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "gcweb/default"
-permalink: "index-en.html"
+permalink: "gcweb/index-en.html"
 title: Canada.ca theme
 language: en
 altLangPrefix: index

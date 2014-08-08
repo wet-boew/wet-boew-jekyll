@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gc-intranet/default"
-permalink: "content-fr.html"
+permalink: "theme-gc-intranet/content-fr.html"
 title: "Page de contenu - Thème du gouvernement du Canada pour les sites intranet"
 language: fr
 altLangPrefix: "content"

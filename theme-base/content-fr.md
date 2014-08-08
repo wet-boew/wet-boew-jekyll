@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-base/default"
-permalink: "content-fr.html"
+permalink: "theme-base/content-fr.html"
 title: "Page de contenu - Thème de la base"
 language: fr
 altLangPrefix: "content"

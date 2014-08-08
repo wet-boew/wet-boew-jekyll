@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-ogpl/default"
-permalink: "content-en.html"
+permalink: "theme-ogpl/content-en.html"
 title: "Content page - OGPL theme"
 language: en
 altLangPrefix: "content"

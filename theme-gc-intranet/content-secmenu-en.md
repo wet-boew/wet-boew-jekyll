@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gc-intranet/default"
-permalink: "content-secmenu-en.html"
+permalink: "theme-gc-intranet/content-secmenu-en.html"
 title: "Content page - Secondary menu - GC Intranet theme"
 language: en
 altLangPrefix: "content-secmenu"

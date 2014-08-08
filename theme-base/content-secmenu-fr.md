@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-base/default"
-permalink: "content-secmenu"
+permalink: "theme-base/content-secmenu-fr.html"
 title: "Page de contenu - Menu secondaire - Thème de la base"
 language: fr
 altLangPrefix: "content-secmenu"

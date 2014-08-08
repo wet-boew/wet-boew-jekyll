@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-gc-intranet/default"
-permalink: "content-nosearchlang-en.html"
+permalink: "theme-gc-intranet/content-nosearchlang-en.html"
 title: "Content page - No search or language selection link - GC Intranet theme"
 language: en
 altLangPrefix: "content-nosearchlang"

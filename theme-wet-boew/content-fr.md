@@ -1,7 +1,7 @@
 ---
 published: true
 layout: "theme-wet-boew/default"
-permalink: "content-fr.html"
+permalink: "theme-wet-boew/content-fr.html"
 title: "Page de contenu - Thème de la BOEW"
 language: fr
 altLangPrefix: content
