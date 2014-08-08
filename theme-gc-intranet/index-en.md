@@ -1,7 +1,7 @@
 ---
 published: true
-layout: "theme-gcwu-intranet/default"
-permalink: "theme-gcwu-intranet/index-en.html"
+layout: "theme-gc-intranet/default"
+permalink: "theme-gc-intranet/index-en.html"
 title: "GC Intranet theme"
 language: en
 altLangPrefix: index
@@ -20,4 +20,4 @@ description: "GC Intranet theme - Jekyll variant - Web Experience Toolkit (WET)"
 
 ## Blog posts
 
-* [Blog post](../2013-06-12-theme-gcwu-intranet-en.html)
+* [Blog post](../2013-06-12-theme-gc-intranet-en.html)
