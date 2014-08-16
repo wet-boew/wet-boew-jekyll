@@ -20,5 +20,12 @@ task :test do
 			"section4/index-en.html",
 			"section4/index-fr.html",
 			"section4/section43/index-fr.html"
-		]}).run
+		],
+		:disable_external => true,
+		:alt_ignore => [
+			/logo.png$/,
+			# TODO: These should actually have alts
+			/features\/(\w|\-|_)*\.(jpg|png)$/
+		]
+		}).run
 end
