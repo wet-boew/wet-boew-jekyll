@@ -5,7 +5,7 @@ permalink: "theme-gcwu-fegc/index-en.html"
 title: "GC Web Usability theme"
 language: en
 altLangPrefix: index
-dateModified: "2014-05-27"
+dateModified: "2014-08-16"
 description: "GC Web Usability theme - Jekyll variant - Web Experience Toolkit (WET)"
 ---
 
@@ -19,4 +19,4 @@ description: "GC Web Usability theme - Jekyll variant - Web Experience Toolkit (
 
 ## Blog posts
 
-* [Blog post](../2013-06-11-theme-gcwu-fegc-en.html)
+* [Blog post](../2013-06-13-theme-gcwu-fegc-en.html)

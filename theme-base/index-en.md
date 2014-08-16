@@ -5,7 +5,7 @@ permalink: "theme-base/index-en.html"
 title: "Base theme"
 language: en
 altLangPrefix: index
-dateModified: "2014-05-27"
+dateModified: "2014-08-16"
 description: "Base theme - Jekyll variant - Web Experience Toolkit (WET)"
 ---
 
@@ -19,4 +19,4 @@ description: "Base theme - Jekyll variant - Web Experience Toolkit (WET)"
 
 ## Blog posts
 
-* [Blog post](../2013-06-11-theme-base-en.html)
+* [Blog post](../2013-06-14-theme-base-en.html)

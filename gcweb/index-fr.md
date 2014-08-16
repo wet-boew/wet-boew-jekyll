@@ -5,7 +5,7 @@ permalink: "gcweb/index-fr.html"
 title: "Thème Canada.ca"
 language: fr
 altLangPrefix: index
-dateModified: "2014-05-27"
+dateModified: "2014-08-16"
 description: "Thème Canada.ca - Variant pour Jekyll - Boîte à outils de l'expérience Web (BOEW)"
 ---
 
@@ -19,4 +19,4 @@ description: "Thème Canada.ca - Variant pour Jekyll - Boîte à outils de l'exp
 
 ## Articles de blogue
 
-* [Article de blogue](../2013-06-11-gcweb-fr.html)
+* [Article de blogue](../2013-06-16-gcweb-fr.html)
