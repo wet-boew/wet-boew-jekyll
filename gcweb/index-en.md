@@ -5,7 +5,7 @@ permalink: "gcweb/index-en.html"
 title: "Canada.ca theme"
 language: en
 altLangPrefix: index
-dateModified: "2014-05-27"
+dateModified: "2014-08-16"
 description: "GC Web Usability theme - Jekyll variant - Web Experience Toolkit (WET)"
 ---
 
@@ -19,4 +19,4 @@ description: "GC Web Usability theme - Jekyll variant - Web Experience Toolkit (
 
 ## Blog posts
 
-* [Blog post](../2013-06-11-gcweb-en.html)
+* [Blog post](../2013-06-16-gcweb-en.html)

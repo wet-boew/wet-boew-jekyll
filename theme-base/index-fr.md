@@ -5,7 +5,7 @@ permalink: "theme-base/index-fr.html"
 title: "Thème de la base"
 language: fr
 altLangPrefix: index
-dateModified: "2014-05-27"
+dateModified: "2014-08-16"
 description: "Thème de la base - Variant pour Jekyll - Boîte à outils de l'expérience Web (BOEW)"
 ---
 
@@ -19,4 +19,4 @@ description: "Thème de la base - Variant pour Jekyll - Boîte à outils de l'ex
 
 ## Articles de blogue
 
-* [Article de blogue](../2013-06-11-theme-base-fr.html)
+* [Article de blogue](../2013-06-14-theme-base-fr.html)

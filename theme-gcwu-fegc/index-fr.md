@@ -5,7 +5,7 @@ permalink: "theme-gcwu-fegc/index-fr.html"
 title: "Thème de la facilité d’emploi Web du gouvernement du Canada"
 language: fr
 altLangPrefix: index
-dateModified: "2014-05-27"
+dateModified: "2014-08-16"
 description: "Thème de la facilité d’emploi Web du gouvernement du Canada - Variant pour Jekyll - Boîte à outils de l'expérience Web (BOEW)"
 ---
 
@@ -19,4 +19,4 @@ description: "Thème de la facilité d’emploi Web du gouvernement du Canada - 
 
 ## Articles de blogue
 
-* [Article de blogue](../2013-06-11-theme-gcwu-fegc-fr.html)
+* [Article de blogue](../2013-06-13-theme-gcwu-fegc-fr.html)
