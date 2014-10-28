@@ -9,6 +9,5 @@ bundle exec jekyll doctor
 bundle exec rake test
 
 if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
-	bundle exec rake prepare
-	bundle exec rake deploy
+	bundle exec rake prepare > /dev/null 2>&1 && bundle exec rake deploy > /dev/null 2>&1 || echo -e "\e[01;31mError pushing to gh-pages\e[00m" && exit 1
 fi
