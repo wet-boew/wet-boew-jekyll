@@ -1,4 +1,5 @@
 require "html/proofer"
+require "jekyll-gh-pages"
 
 task :test do
 	sh "bundle exec jekyll build"
